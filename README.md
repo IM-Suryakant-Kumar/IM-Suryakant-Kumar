@@ -6,7 +6,7 @@ Hi 👋, I'm Suryakant
 Passionate about Software Developement and coding from India
 </h3>
 
-* 🔭 I’m currently working on **Node skills**
+* 🔭 I’m currently working on my **Node skills**
 * 🌱 I’m currently learning **Web Development**
 * 👯 I’m looking to collaborate on **Any Web projects**
 * 💬 Ask me about **Web Dev **
