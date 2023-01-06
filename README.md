@@ -6,10 +6,10 @@ Hi 👋, I'm Suryakant
 Passionate about Software Developement and coding from India
 </h3>
 
-* 🔭 I’m currently working on **My problem solving skills**
+* 🔭 I’m currently working on **Node skills**
 * 🌱 I’m currently learning **Web Development**
 * 👯 I’m looking to collaborate on **Any Web projects**
-* 💬 Ask me about **Web Development and DSA**
+* 💬 Ask me about **Web Dev **
 * 📫 How to reach me **[suryakantIsmailchak@gmail.com](mailto:suryakantIsmailchak@gmail.com, "suryakantIsmailchak@gmail.com")**
 
 ***
