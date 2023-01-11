@@ -14,7 +14,7 @@ Passionate about Software Developement and coding from India
 
 ***
 
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/sujeetsaxena78/)<br>
+<!-- [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/sujeetsaxena78/)<br> -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suryakant-kumar) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/Suryakant_91)<br>![](https://komarev.com/ghpvc/?username=IM-Suryakant-Kumar&color=brightgreen)
 
 ***
