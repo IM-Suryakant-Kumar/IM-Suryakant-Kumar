@@ -9,7 +9,7 @@ Passionate about Software Developement and coding from India
 * 🔭 I’m currently working on my **Node skills**
 * 🌱 I’m currently learning **Web Development**
 * 👯 I’m looking to collaborate on **Any Web projects**
-* 💬 Ask me about **Web Dev **
+* 💬 Ask me about **Web Dev**
 * 📫 How to reach me **[suryakantIsmailchak@gmail.com](mailto:suryakantIsmailchak@gmail.com, "suryakantIsmailchak@gmail.com")**
 
 ***
