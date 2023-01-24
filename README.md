@@ -1,23 +1,24 @@
 <div align="center">
 <h1>Hi 👋, I'm Suryakant</h1>
-<h3>Passionate about Software Developement and coding from India</h3>
+<h3>Passionate learning developer from India</h3>
 
 [![](https://komarev.com/ghpvc/?username=IM-Suryakant-Kumar)](https://github.com/IM-Suryakant-Kumar)
 
 </div>
 
-* 🔭 I’m currently working on my **Node skills**
-* 🌱 I’m currently learning **Web Development**
-* 👯 I’m looking to collaborate on **Any Web projects**
-* 💬 Ask me about **Web Dev**
-* 📫 How to reach me **[suryakantIsmailchak@gmail.com](mailto:suryakantIsmailchak@gmail.com, "suryakantIsmailchak@gmail.com")**
+---
 
-***
+## 📫 How to reach me:
+
+**[suryakantIsmailchak@gmail.com](mailto:suryakantIsmailchak@gmail.com, "suryakantIsmailchak@gmail.com")**
+
+---
 
 <!-- [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/sujeetsaxena78/)<br> -->
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suryakant-kumar) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/Suryakant_91)
 
-***
+---
 
 ## 💻 Tech Stack:
 
@@ -36,16 +37,16 @@
 
  </div>
 
-***
+---
 
 ## 📊 GitHub Stats:
 
-<div align="center"> 
+<div align="center">
 
-  ![Suryakant's GitHub stats](https://github-readme-stats.vercel.app/api?username=IM-Suryakant-Kumar&show_icons=true&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true)
+![Suryakant's GitHub stats](https://github-readme-stats.vercel.app/api?username=IM-Suryakant-Kumar&show_icons=true&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true)
 
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IM-Suryakant-Kumar&theme=blue-green&hide_border=false&include_all_commits=false&count_private=false)](https://github.com/IM-Suryakant-Kumar/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IM-Suryakant-Kumar&theme=blue-green&hide_border=false&include_all_commits=false&count_private=false)](https://github.com/IM-Suryakant-Kumar/github-readme-stats)
 
   </div>
 
-***
+---
