@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #32FF7E;
+    --secondary-color: #713f12;
     --off-white: #f3f4f6;
     --dark-gray: #64748b;
 }
@@ -39,7 +40,7 @@ hr {
 .primary-link {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white;
+    color: var(--secondary-color);
 }
 
 .secondary-link {
@@ -63,7 +64,7 @@ hr {
 
 .navigation {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--secondary-color);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
@@ -74,7 +75,7 @@ hr {
 }
 
 .navigation .link {
-    color: white;
+    color: var(--secondary-color);
 }
 
 .navigation .nav-pills {
@@ -133,7 +134,7 @@ hr {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
-    color: white;
+    color: var(--secondary-color);
     border-top-right-radius: 1rem;
 }
 
@@ -143,7 +144,7 @@ hr {
 }
 
 .footer .link {
-    color: white;
+    color: var(--secondary-color);
 }
 
 .footer ul {
