@@ -6,8 +6,14 @@
     --dark-gray: #64748b;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 hr {
@@ -75,6 +81,10 @@ hr {
     text-align: right;
 }
 
+.navigation ul {
+    padding-inline-start: 0px;
+}
+
 .navigation .link-active {
     font-weight: bold;
 }
@@ -109,7 +119,9 @@ hr {
     text-align: center;
 }
 
-
+.section .link {
+    display: inline-block;
+}
 
 .ow {
     background-color: var(--off-white);
@@ -137,3 +149,61 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+
+/* media-queries */
+
+@media screen and (max-width: 345px) {
+    /* list */
+
+    .list-item-inline {
+        padding: 0rem 0.1rem;
+    }
+
+    /** links **/
+
+    .link {
+        padding: 0.5rem 0.98rem;
+    }
+    
+    /* header */
+    
+    .hero .hero-img {
+        max-width: 250px;
+        display: block;
+        margin: auto;
+    }
+
+    
+    /* footer */
+    
+    .footer .list-item-inline {
+        padding: 0rem;
+    }
+    
+    .footer .link {
+        padding: 0.5rem 0.86rem;
+    }
+
+}
+
+@media screen and (min-width: 344px) and (max-width: 400px) {
+    
+    /* header */
+
+    .hero .hero-img {
+        max-width: 250px;
+    }
+
+    /* footer */
+
+    .footer .link {
+        padding: 0.5rem 0.79rem;
+    }
+}
+
+
+
+
+/* bem naming convention for css */
+/* screen cast mode  */
+/* what is root and relative path */
