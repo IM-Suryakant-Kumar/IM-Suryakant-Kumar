@@ -40,7 +40,6 @@ hr {
 .primary-link {
     background-color: var(--primary-color);
     border-radius: 0.7rem;
-    border: 1px solid var(--primary-color);
     color: var(--secondary-color);
 }
 
