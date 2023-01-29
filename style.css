@@ -39,14 +39,14 @@ hr {
 
 .primary-link {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 0.7rem;
     color: var(--secondary-color);
 }
 
 .secondary-link {
     color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+    border-radius: 0.7rem;
+    border: 2px solid var(--primary-color);
 }
 
 /* lists */
