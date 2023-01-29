@@ -44,10 +44,11 @@ hr {
 
 .box-container .box h1 {
     font-weight: bold;
+    padding: 0rem 2rem;
 }
 
 .box-container .box p {
-    padding: 0.1rem 0rem;
+    padding: 0.1rem 2rem;
 }
 
 .box-container .box .box-links {
