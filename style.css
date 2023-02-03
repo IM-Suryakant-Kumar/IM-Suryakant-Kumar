@@ -72,6 +72,7 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.7rem;
     color: var(--secondary-color);
+    box-shadow: 2px 2px 1rem 1px grey;
 }
 
 .secondary-link {
@@ -79,6 +80,7 @@ hr {
     color: var(--primary-color);
     border-radius: 0.7rem;
     border: 1px solid var(--primary-color);
+    box-shadow: 2px 2px 1rem 1px grey;
 }
 
 /* lists */
