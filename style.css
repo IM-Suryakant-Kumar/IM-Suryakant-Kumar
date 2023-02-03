@@ -5,7 +5,7 @@
     --secondary-color: #713f12;
     --off-white: #f3f4f6;
     --dark-gray: #64748b;
-    --link-white: #f7f1e3;
+    --link-white: #ffffff;
 }
 
 * {
@@ -83,7 +83,7 @@ hr {
     color: var(--primary-color);
     border-radius: 0.7rem;
     border: 1px solid var(--primary-color);
-    box-shadow: 2px 2px 1rem 1px grey;
+    box-shadow: 2px 2px 0.5rem 1px grey;
 }
 
 /* lists */
