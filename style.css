@@ -61,6 +61,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin: 0rem 1rem;
 }
 
 .link-inline-block {
@@ -99,17 +100,18 @@ hr {
 
 .navigation {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
+    color: var(--secondary-color);
     font-weight: bold;
     font-size: 1.1rem;
 }
 
 .navigation .link {
+    font-size: 0.92rem;
     color: var(--secondary-color);
 }
 
@@ -122,6 +124,7 @@ hr {
 }
 
 .navigation .link-active {
+    color: var(--secondary-color);
     font-weight: bold;
 }
 
@@ -233,6 +236,16 @@ hr {
 
     .footer .link {
         padding: 0.5rem 0.79rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    /* Header Section */
+
+    .navigation .link {
+        margin: 0rem;
+        font-size: 0.82rem;
     }
 }
 
