@@ -148,6 +148,10 @@ hr {
     color: var(--dark-gray);
 }
 
+.hero .hero-heading1 {
+    font-size: 1.6rem;
+}
+
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
