@@ -86,6 +86,10 @@ hr {
     box-shadow: 2px 2px 0.5rem 1px grey;
 }
 
+.link-clicked {
+    box-shadow: none;
+}
+
 /* lists */
 
 .list-non-bullet {
