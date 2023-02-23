@@ -8,9 +8,11 @@
 
 ---
 
-## 📫 How to reach me:
-
-**[suryakantIsmailchak@gmail.com](mailto:suryakantIsmailchak@gmail.com, "suryakantIsmailchak@gmail.com")**
+- 🔭 I’m currently working on **My problem solving skills**
+- 🌱 I’m currently learning **Web Development**
+- 👯 I’m looking to collaborate on **Any Web projects**
+- 💬 Ask me about **Web Development and DSA**
+- 📫 How to reach me **[suryakantIsmailchak@gmail.com](mailto:suryakantIsmailchak@gmail.com, "suryakantIsmailchak@gmail.com")**
 
 ---
 
@@ -45,7 +47,9 @@
 
 ![Suryakant's GitHub stats](https://github-readme-stats.vercel.app/api?username=IM-Suryakant-Kumar&show_icons=true&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IM-Suryakant-Kumar&theme=blue-green&hide_border=false&include_all_commits=false&count_private=false)](https://github.com/IM-Suryakant-Kumar/github-readme-stats)
+![](https://github-readme-streak-stats.herokuapp.com/?user=IM-Suryakant-Kumar&theme=blue-green&hide_border=false)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IM-Suryakant-Kumar&theme=blue-green&hide_border=false&include_all_commits=false&count_private=false&layout=compact)](https://github.com/IM-Suryakant-Kumar/github-readme-stats)
 
   </div>
 
