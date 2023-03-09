@@ -148,28 +148,7 @@ hr {
     background-color: var(--off-white);
 }
 
-/* footer */
 
-.footer {
-    background-color: var(--primary-color);
-    padding: 2rem 1rem;
-    text-align: center;
-    color: var(--secondary-color);
-    border-top-right-radius: 1rem;
-}
-
-.footer .footer-heading {
-    font-weight: bold;
-    font-size: large;
-}
-
-.footer .link {
-    color: var(--secondary-color);
-}
-
-.footer ul {
-    padding-inline-start: 0px;
-}
 
 /* Project Page Section*/
 
@@ -196,18 +175,6 @@ hr {
         display: block;
         margin: auto;
     }
-
-    
-    /* footer */
-    
-    .footer .list-item-inline {
-        padding: 0rem;
-    }
-    
-    .footer .link {
-        padding: 0.5rem 0.86rem;
-    }
-
 }
 
 @media screen and (min-width: 344px) and (max-width: 400px) {
