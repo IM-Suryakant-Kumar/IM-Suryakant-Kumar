@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
     --primary-color: #32FF7E;
@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -108,38 +108,6 @@ hr {
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
-}
-
-/* navigation */
-
-.navigation {
-    background-color: var(--primary-color);
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
-}
-
-.navigation .nav-brand {
-    color: var(--secondary-color);
-    font-weight: bold;
-    font-size: 1.1rem;
-}
-
-.navigation .link {
-    font-size: 0.92rem;
-    color: var(--secondary-color);
-}
-
-.navigation .nav-pills {
-    text-align: right;
-}
-
-.navigation ul {
-    padding-inline-start: 0px;
-}
-
-.navigation .link-active {
-    color: var(--secondary-color);
-    font-weight: bold;
 }
 
 /* header */
@@ -254,16 +222,6 @@ hr {
 
     .footer .link {
         padding: 0.5rem 0.79rem;
-    }
-}
-
-@media screen and (max-width: 500px) {
-
-    /* Header Section */
-
-    .navigation .link {
-        margin: 0rem;
-        font-size: 0.82rem;
     }
 }
 
