@@ -5,7 +5,7 @@
   padding: 2rem 1rem;
   text-align: center;
   color: var(--secondary-color);
-  border-top-right-radius: 1rem;
+  border-top-right-radius: 0.6rem;
 }
 
 .footer .footer-heading {
@@ -14,7 +14,7 @@
 }
 
 .footer .footer-heading img {
-  margin-left: 4rem;
+  margin-left: 4.5rem;
 }
 
 .footer .link {
