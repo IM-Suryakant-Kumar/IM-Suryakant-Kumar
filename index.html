@@ -1,117 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO=META=TAGS -->
+    <meta name="author" content="Suryakant" />
+    <meta
+      name="keywords"
+      content="javascript, portfolio, project, blog, developer"
+    />
+    <meta
+      name="description"
+      content="I am Suryakant. I like to work as a web developer. I want to showchase my work. this is my portfolio"
+    />
+    <meta name="”robots”" content="index, follow" />
+    <title>Home | Suryakant</title>
+    <meta name="application-name" content="Suryakant | Home" />
+    <meta name="apple-mobile-web-app-title" content="Suryakant | Home" />
+    <!-- SEO=META=TAGS -->
+    <!-- FONT=AWESOME=CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FONT=AWESOME=CDN -->
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <!-- STYLESHEET -->
+    <!-- SCRIPT -->
+    <script src="./script.js" defer></script>
+    <script src="./js/navbar.js" defer></script>
+    <!-- SCRIPT -->
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- SEO=META=TAGS -->
-  <meta name="author" content="Suryakant" />
-  <meta name="keywords" content="javascript, portfolio, project, blog, developer" />
-  <meta name="description"
-    content="I am Suryakant. I like to work as a web developer. I want to showchase my work. this is my portfolio" />
-  <meta name=”robots” content="index, follow">
-  <title>Home | Suryakant</title>
-  <meta name="application-name" content="Suryakant | Home" />
-  <meta name="apple-mobile-web-app-title" content="Suryakant | Home" />
-  <!-- SEO=META=TAGS -->
-  <!-- FONT=AWESOME=CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- FONT=AWESOME=CDN -->
-  <!-- STYLESHEET -->
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="./css/navbar.css" />
-  <link rel="stylesheet" href="./css/footer.css" />
-  <!-- STYLESHEET -->
-  <!-- SCRIPT -->
-  <script src="./script.js" defer></script>
-  <script src="./js/navbar.js" defer></script>
-  <!-- SCRIPT -->
-</head>
+  <body>
+    <!-- Navbar Section -->
 
-<body>
-
-  <!-- Navbar Section -->
-
-  <nav>
-    <div class="nav-main">
-      <div class="nav-header">
-        <img src="./images/logo.svg" alt="logo" />
-        <i class="fa-solid fa-bars menu-bar"></i>
+    <nav>
+      <div class="nav-main">
+        <div class="nav-header">
+          <img src="./images/logo.svg" alt="logo" />
+          <div class="menu-bar">
+            <div class="top-bar"></div>
+            <div class="middle-bar"></div>
+            <div class="bottom-bar"></div>
+          </div>
+        </div>
+        <ul class="menu">
+          <li><a class="link-active" href="./">Home</a></li>
+          <li><a href="./pages/projects.html">Projects</a></li>
+          <li><a href="./pages/blogs.html">Blogs</a></li>
+        </ul>
       </div>
-      <ul class="menu">
-        <li><a class="link-active" href="./">Home</a></li>
-        <li><a href="./pages/projects.html">Projects</a></li>
-        <li><a href="./pages/blogs.html">Blogs</a></li>
+    </nav>
+
+    <!-- Header Section -->
+
+    <header class="hero">
+      <img class="hero-img" src="./images/hero.svg" alt="" />
+      <h1 class="hero-heading">
+        Suryakant Kumar the <span class="heading-inverted">web developer</span>
+      </h1>
+    </header>
+
+    <!-- Skills Section -->
+
+    <section class="section">
+      <div class="container container-center">
+        <h1>Technologies</h1>
+        <p>
+          I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and
+          Web Hosting
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+
+    <section class="section">
+      <div class="container container-center">
+        <h1>Projects</h1>
+        <p>
+          I like to showcase my work and thus, you can see my projects hosted
+          online
+        </p>
+        <a class="link linl-inline-block primary-link" href="./projects.html"
+          >See Projects</a
+        >
+      </div>
+    </section>
+
+    <!-- Blogs Section -->
+
+    <section class="section">
+      <div class="container container-center">
+        <h1>Blogs</h1>
+        <p>
+          I like to showcase my work and thus, you can see my projects hosted
+          online
+        </p>
+        <a class="link linl-inline-block secondary-link" href="./blogs.html"
+          >Read Blogs</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="footer">
+      <div class="footer-heading">
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+      <ul class="list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/IM-Suryakant-Kumar"
+            ><i class="fa-brands fa-github-alt"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/Suryakant_91"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://www.linkedin.com/in/suryakant-kumar/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
       </ul>
-    </div>
-  </nav>
-
-  <!-- Header Section -->
-
-  <header class="hero">
-    <img class="hero-img" src="./images/hero.svg" alt="" />
-    <h1 class="hero-heading">
-      Suryakant Kumar the <span class="heading-inverted">web developer</span>
-    </h1>
-  </header>
-
-  <!-- Skills Section -->
-
-  <section class="section">
-    <div class="container container-center">
-      <h1>Technologies</h1>
-      <p>
-        I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and
-        Web Hosting
-      </p>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-
-  <section class="section">
-    <div class="container container-center">
-      <h1>Projects</h1>
-      <p>
-        I like to showcase my work and thus, you can see my projects hosted
-        online
-      </p>
-      <a class="link linl-inline-block primary-link" href="./projects.html">See Projects</a>
-    </div>
-  </section>
-
-  <!-- Blogs Section -->
-
-  <section class="section">
-    <div class="container container-center">
-      <h1>Blogs</h1>
-      <p>
-        I like to showcase my work and thus, you can see my projects hosted
-        online
-      </p>
-      <a class="link linl-inline-block secondary-link" href="./blogs.html">Read Blogs</a>
-    </div>
-  </section>
-
-  <!-- Footer Section -->
-
-  <footer class="footer">
-    <div class="footer-heading"><img src="./images/logo.svg" alt="logo"></div>
-    <ul class="list-non-bullet">
-      <li class="list-item-inline">
-        <a class="link" href="https://github.com/IM-Suryakant-Kumar"><i class="fa-brands fa-github-alt"></i></a>
-      </li>
-      <li class="list-item-inline">
-        <a class="link" href="https://twitter.com/Suryakant_91"><i class="fa-brands fa-twitter"></i></a>
-      </li>
-      <li class="list-item-inline">
-        <a class="link" href="https://www.linkedin.com/in/suryakant-kumar/"><i class="fa-brands fa-linkedin"></i></a>
-      </li>
-    </ul>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>

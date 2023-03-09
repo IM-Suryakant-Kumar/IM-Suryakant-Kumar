@@ -22,13 +22,31 @@ img {
 }
 
 .menu-bar {
-  font-size: 1.5rem;
-  color: var(--secondary-color);
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   cursor: pointer;
 }
 
-.menu-bar:hover {
-  color: black;
+.menu-bar > * {
+  height: 3px;
+  background-color: var(--secondary-color);
+  margin: 2.99px 0;
+  transform-origin: left;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-bar.active .top-bar {
+    transform: rotate(45deg);
+}
+.menu-bar.active .middle-bar {
+    transform: translateX(1rem);
+    opacity: 0;
+}
+.menu-bar.active .bottom-bar {
+    transform: rotate(-45deg);
 }
 
 .menu a {
