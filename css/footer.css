@@ -14,11 +14,12 @@
 }
 
 .footer .footer-heading img {
-  margin-left: 4.5rem;
+  margin-left: 3rem;
 }
 
 .footer .link {
   color: var(--secondary-color);
+  font-size: 1.25rem;
 }
 
 .footer ul {

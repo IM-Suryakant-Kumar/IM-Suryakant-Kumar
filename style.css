@@ -49,6 +49,13 @@ hr {
     padding: 2rem 1rem;
 }
 
+.box-container .box > p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
 .box-container .box h1 {
     font-weight: bold;
     padding: 0rem 1rem;
