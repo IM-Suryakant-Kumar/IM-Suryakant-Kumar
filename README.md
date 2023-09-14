@@ -36,7 +36,7 @@
 ![](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
  </div>
 
 ---
@@ -47,7 +47,7 @@
 
 ![Suryakant's GitHub stats](https://github-readme-stats.vercel.app/api?username=IM-Suryakant-Kumar&show_icons=true&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true)
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=IM-Suryakant-Kumar&theme=blue-green&hide_border=false)
+<!-- ![](https://github-readme-streak-stats.herokuapp.com/?user=IM-Suryakant-Kumar&theme=blue-green&hide_border=false) -->
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IM-Suryakant-Kumar&theme=blue-green&hide_border=false&include_all_commits=false&count_private=false&layout=compact)](https://github.com/IM-Suryakant-Kumar/github-readme-stats)
 
