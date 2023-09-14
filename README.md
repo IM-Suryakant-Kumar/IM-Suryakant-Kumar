@@ -41,7 +41,7 @@
 
 ---
 
-## 📊 GitHub Stats:
+<!-- ## 📊 GitHub Stats:
 
 <div align="center">
 
@@ -51,6 +51,6 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IM-Suryakant-Kumar&theme=blue-green&hide_border=false&include_all_commits=false&count_private=false&layout=compact)](https://github.com/IM-Suryakant-Kumar/github-readme-stats)
 
-  </div>
+  </div> -->
 
 ---
