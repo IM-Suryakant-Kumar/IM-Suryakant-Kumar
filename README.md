@@ -8,11 +8,11 @@
 
 ---
 
-- 🔭 I’m currently working on **My problem solving skills**
-- 🌱 I’m currently learning **Web Development**
-- 👯 I’m looking to collaborate on **Any Web projects**
-- 💬 Ask me about **Web Development and DSA**
-- 📫 How to reach me **[suryakantIsmailchak@gmail.com](mailto:suryakantIsmailchak@gmail.com, "suryakantIsmailchak@gmail.com")**
+-   🔭 I’m currently working on **My problem solving skills**
+-   🌱 I’m currently learning **Web Development**
+-   👯 I’m looking to collaborate on **Any Web projects**
+-   💬 Ask me about **Web Development and DSA**
+-   📫 How to reach me **[suryakantIsmailchak@gmail.com](mailto:suryakantIsmailchak@gmail.com, "suryakantIsmailchak@gmail.com")**
 
 ---
 
@@ -37,11 +37,12 @@
 ![](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+
  </div>
 
 ---
 
-<!-- ## 📊 GitHub Stats:
+## 📊 GitHub Stats:
 
 <div align="center">
 
@@ -51,6 +52,6 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IM-Suryakant-Kumar&theme=blue-green&hide_border=false&include_all_commits=false&count_private=false&layout=compact)](https://github.com/IM-Suryakant-Kumar/github-readme-stats)
 
-  </div> -->
+  </div>
 
 ---
