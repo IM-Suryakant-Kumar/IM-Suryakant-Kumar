@@ -26,6 +26,34 @@
 
 ---
 
+## 🧑‍💻 Projects
+
+1.  ClenchSnap: A Social media app
+
+    -   [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=vercel&logoColor=black)](https://clench-snap.vercel.app/) [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/ClenchSnap)
+
+2.  ClenchCart: An E-commerce app
+
+    -   [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=vercel&logoColor=black)](https://clench-cart.vercel.app/) [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/clench-cart)
+
+3.  ClenchMedia: A video library app
+
+    -   [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=vercel&logoColor=black)](https://clench-media.vercel.app/) [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/ClenchMedia)
+
+4.  Van Life: A Travel Journal app
+
+    -   [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=netlify&logoColor=black)](https://van-life-v1.netlify.app/) [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/van-life)
+
+5.  Note App: A Markdown editor
+
+    -   [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=netlify&logoColor=black)](https://note-app-v01.netlify.app/) [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/note-app)
+
+6.  YouTube Clone: A video library app 
+
+    -   [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=vercel&logoColor=black)](https://youtube-clone-rho-two.vercel.app/) [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/youtube-clone)
+
+---
+
 ## 💻 Tech Stack:
 
 <div align="center">
@@ -60,7 +88,7 @@
 
 <!-- ![](https://github-readme-streak-stats.herokuapp.com/?user=IM-Suryakant-Kumar&theme=blue-green&hide_border=false) -->
 
-![Suryakant's GitHub stats](https://github-readme-stats.vercel.app/api?username=IM-Suryakant-Kumar&show_icons=true&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true) 
+![Suryakant's GitHub stats](https://github-readme-stats.vercel.app/api?username=IM-Suryakant-Kumar&show_icons=true&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IM-Suryakant-Kumar&theme=blue-green&hide_border=false&include_all_commits=false&count_private=false&layout=compact)](https://github.com/IM-Suryakant-Kumar/github-readme-stats)
 
