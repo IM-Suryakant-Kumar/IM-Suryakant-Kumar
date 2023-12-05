@@ -34,23 +34,23 @@
 
 2.  ClenchCart: An E-commerce app
 
-    -   [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=vercel&logoColor=black)](https://clench-cart.vercel.app/) [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/clench-cart)
+    -   [![Static Badge](https://img.shields.io/badge/ClenchCart-%233a86ff?logo=vercel&logoColor=black)](https://clench-cart.vercel.app/) [![Static Badge](https://img.shields.io/badge/ClenchCart-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/clench-cart)
 
 3.  ClenchMedia: A video library app
 
-    -   [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=vercel&logoColor=black)](https://clench-media.vercel.app/) [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/ClenchMedia)
+    -   [![Static Badge](https://img.shields.io/badge/ClenchMedia-%233a86ff?logo=vercel&logoColor=black)](https://clench-media.vercel.app/) [![Static Badge](https://img.shields.io/badge/ClenchMedia-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/ClenchMedia)
 
 4.  Van Life: A Travel Journal app
 
-    -   [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=netlify&logoColor=black)](https://van-life-v1.netlify.app/) [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/van-life)
+    -   [![Static Badge](https://img.shields.io/badge/Van_Life-%233a86ff?logo=netlify&logoColor=black)](https://van-life-v1.netlify.app/) [![Static Badge](https://img.shields.io/badge/Van_Life-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/van-life)
 
 5.  Note App: A Markdown editor
 
-    -   [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=netlify&logoColor=black)](https://note-app-v01.netlify.app/) [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/note-app)
+    -   [![Static Badge](https://img.shields.io/badge/Note_App-%233a86ff?logo=netlify&logoColor=black)](https://note-app-v01.netlify.app/) [![Static Badge](https://img.shields.io/badge/Note_App-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/note-app)
 
 6.  YouTube Clone: A video library app 
 
-    -   [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=vercel&logoColor=black)](https://youtube-clone-rho-two.vercel.app/) [![Static Badge](https://img.shields.io/badge/ClenchSnap-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/youtube-clone)
+    -   [![Static Badge](https://img.shields.io/badge/YouTube_Clone-%233a86ff?logo=vercel&logoColor=black)](https://youtube-clone-rho-two.vercel.app/) [![Static Badge](https://img.shields.io/badge/YouTube_Clone-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/youtube-clone)
 
 ---
 
