@@ -18,6 +18,7 @@
 }
 
 .greet > p + p {
+  margin-top: 0.3125em;
 	font-size: large;
 }
 
@@ -32,11 +33,22 @@
 }
 
 .greet p:last-child {
+  margin-top: 0.3125em;
   font-size: medium;
 }
 
 .greet p:last-child span.highlight {
   color: var(--highlight-color);
+}
+
+.banner {
+  margin-top: 0.625em;
+  border-radius: 0.625em;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2) inset, -1px -1px 4px 1px rgba(0, 0, 0, 0.2) inset;
+}
+
+.banner > img {
+  width: 100%;
 }
 
 /* animation */
@@ -51,4 +63,29 @@
 	100% {
 		opacity: 0;
 	}
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+  }
+  
+  .hero > * {
+    flex: 1;
+  }
+
+  .greet > p {
+    font-size: xx-large;
+  }
+
+  .greet > p + p {
+    font-size: x-large;
+  }
+
+  .greet > p:last-child {
+    font-size: large;
+  }
+
 }
