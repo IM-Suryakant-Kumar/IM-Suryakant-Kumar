@@ -1,3 +1,5 @@
+import "./scripts/hero.js"
+
 const menuBar = document.querySelector(".menu-bar");
 
 menuBar.addEventListener("click", () => {

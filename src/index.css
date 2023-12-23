@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Fira+Sans:wght@300;400;500;600;700;800;900&display=swap");
 /* local css */
 @import url("./styles/navbar.css");
+@import url("./styles/hero.css");
 
 
 :root {
@@ -11,6 +12,7 @@
 	--secondary-color: #90e0ef;
 	--logo-color: #9800ff;
 	--orange-color: #fc2f00;
+  --highlight-color: #00bbf9;
 	--off-white: #f3f4f6;
 	--dark-gray: #64748b;
 	--link-white: #ffffff;
