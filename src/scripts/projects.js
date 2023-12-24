@@ -1,15 +1,19 @@
-import projectsData from "./projects.json" assert { type: "json" }
-const cardsCont = document.querySelector(".cards-cont")
+import projectsData from "./projects.json" assert { type: "json" };
 
-let cardsContHtml = ""
+(() => {
+	const cardsCont = document.querySelector(".cards-cont");
+	let cardsContHtml = "";
 
-projectsData.forEach((p) => {
-  let StackElements = ""  
-  p.stack.forEach((s) => StackElements += `
+	projectsData.forEach(p => {
+		let StackElements = "";
+		p.stack.forEach(
+			s =>
+				(StackElements += `
     <span class="stack">${s}</span>
-  `)
+  `),
+		);
 
-  cardsContHtml += `
+		cardsContHtml += `
     <div class="card">
       <img src="${p.img}" alt="${p.title}">
       <h3>${p.title}</h3>
@@ -33,9 +37,9 @@ projectsData.forEach((p) => {
         </a>
       </div>
     </div>
-  `
-})
+  `;
+	});
 
-// parsing html
-cardsCont.innerHTML = cardsContHtml
-
+	// parsing html
+	cardsCont.innerHTML = cardsContHtml;
+})();
