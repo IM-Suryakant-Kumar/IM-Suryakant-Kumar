@@ -11,6 +11,7 @@
 }
 
 .greet{
+  margin: 2em 0;
 	text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
   line-height: 2em;
 }
@@ -22,12 +23,12 @@
 
 .greet > p + p {
   margin-top: 0.3125em;
-	font-size: large;
+  font-size: medium;
 }
 
 .greet > p > span:first-child {
-	color: var(--orange-color);
-  overflow: hidden; 
+  color: var(--orange-color);
+  overflow: hidden;
 }
 
 .greet .pen {
@@ -37,7 +38,7 @@
 
 .greet p:last-child {
   margin-top: 0.3125em;
-  font-size: medium;
+  font-size: 1.3rem;
 }
 
 .greet p:last-child span.highlight {
@@ -45,6 +46,7 @@
 }
 
 .banner {
+  margin: 1.5em 0;
   margin-top: 0.625em;
   border-radius: 0.625em;
   box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2) inset, -1px -1px 4px 1px rgba(0, 0, 0, 0.2) inset;
@@ -84,11 +86,11 @@
   }
 
   .greet > p + p {
-    font-size: x-large;
+    font-size: large;
   }
 
   .greet > p:last-child {
-    font-size: large;
+    font-size: 1.5rem;
   }
 
 }
