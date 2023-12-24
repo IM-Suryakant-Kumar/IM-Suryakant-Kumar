@@ -23,6 +23,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition:  all 0.2s linear;
+  cursor: pointer;
+}
+
+.skill:hover {
+  transform: scale(1.1);
 }
 
 .skill > img {
