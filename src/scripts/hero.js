@@ -1,4 +1,6 @@
+import "./observer.js";
 const profession = document.querySelector(".profession");
+
 const professionText = "Web Developer";
 let i = 0;
 let isTyping = true;
@@ -11,12 +13,12 @@ let isTyping = true;
 	} else if (!isTyping) {
 		profession.textContent = professionText.substring(0, i);
 		i--;
-    if(i < 0) {
-      isTyping = true
-    }
+		if (i < 0) {
+			isTyping = true;
+		}
 		setTimeout(typing, 50);
 	} else {
-    isTyping = false;
+		isTyping = false;
 		setTimeout(typing, 2000);
 	}
 })();

@@ -1,4 +1,7 @@
+@import url("./slide-animation.css");
+
 .hero {
+  overflow: hidden;
 	margin: 0 0.625em;
 	margin-top: 5em;
 	padding: 0.625em 1em;
