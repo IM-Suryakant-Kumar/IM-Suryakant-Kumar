@@ -14,7 +14,7 @@ import blogsData from "./blogs.json" assert { type: "json" };
         <div class="to-hover" id="id-${id}"></div>
         <div class="arrow">→</div>
         <h3 class="blog-title">${b.title}</h3>
-        <p class="blog-des">${b.desc}</p>
+        <p class="blog-desc">${b.desc}</p>
       </a>
     `;
 

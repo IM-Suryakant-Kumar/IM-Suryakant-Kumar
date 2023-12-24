@@ -24,6 +24,10 @@
 	padding: 1em 0.625em;
 	box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2),
 		-1px -1px 4px 1px rgba(0, 0, 0, 0.2);
+  border-width: 0.3125em;
+  border-style: solid;
+  border-color: var(--logo-color) var(--orange-color) var(--secondary-color)
+		var(--highlight-color);
 	color: var(--logo-color);
 	line-height: 1.7;
 	border-radius: 0.3125em;
@@ -60,4 +64,14 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.blog-title {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.blog-desc {
+  font-size: small;
+  font-weight: 400;
 }
