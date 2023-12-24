@@ -1,0 +1,67 @@
+[
+	{
+		"title": "ClenchCart",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703406624/projects/Screenshot_9_zpy9lm.png",
+		"des": "An E-commerce App",
+		"stack": [
+			"ReactJS",
+			"Redux Toolkit",
+      "React Router v6",
+			"React Router data APIs",
+      "React Toastify",
+			"MaterialUI",
+			"Styled-Components",
+			"NodeJS",
+			"ExpressJS",
+			"MongoDB",
+			"Cloudinary",
+			"JWT",
+			"BcryptJS"
+		],
+		"live": "https://clench-cart.vercel.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/clench-cart"
+	},
+  {
+		"title": "ClenchSnap",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703420661/projects/Screenshot_10_lzrpch.png",
+		"des": "A Social media app",
+		"stack": [
+			"ReactJS",
+			"TypeScript",
+      "React Router v6",
+			"Context API with useReducer",
+			"React Router data APIs",
+      "React Toastify",
+			"TailwindCSS",
+			"NodeJS",
+			"ExpressJS",
+			"MongoDB",
+			"Cloudinary",
+      "JWT",
+			"BcryptJS"
+		],
+		"live": "https://clench-snap.vercel.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/ClenchSnap"
+	},
+  {
+		"title": "CLenchMedia",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703420662/projects/Screenshot_11_rcl0zq.png",
+		"des": "A video library App",
+		"stack": [
+			"ReactJS",
+      "TypeScript",
+      "React Router v6",
+			"React Router data APIs",
+      "React Toastify",
+			"Styled-Components",
+			"NodeJS",
+			"ExpressJS",
+			"MongoDB",
+			"Cloudinary",
+      "JWT",
+			"BcryptJS"
+		],
+		"live": "https://clench-media.vercel.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/ClenchMedia"
+	}
+]
