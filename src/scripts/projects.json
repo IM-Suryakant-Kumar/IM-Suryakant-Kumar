@@ -63,5 +63,321 @@
 		],
 		"live": "https://clench-media.vercel.app/",
 		"github": "https://github.com/IM-Suryakant-Kumar/ClenchMedia"
+	},
+  {
+		"title": "YouTube Clone",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503072/projects/Screenshot_12_sebgfx.png",
+		"des": "A video library App",
+		"stack": [
+			"ReactJS",
+      "React Router v6",
+			"MaterialUI",
+			"Rapid API",
+			"Axios"
+		],
+		"live": "https://youtube-clone-rho-two.vercel.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/youtube-clone"
+	},
+  {
+		"title": "MovieDB",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503073/projects/Screenshot_13_ztnhx2.png",
+		"des": "A TMDB API App",
+		"stack": [
+			"ReactJS",
+      "React Router v6",
+			"TailwindCSS",
+			"TMDB API",
+			"Axios"
+		],
+		"live": "https://moviedb-indol.vercel.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/moviedb"
+	},
+  {
+		"title": "Van Life",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503071/projects/Screenshot_14_jxqgom.png",
+		"des": "A Travel Journal App",
+		"stack": [
+			"ReactJS",
+      "React Router v6",
+			"React Hooks",
+			"MirageJS",
+			"Firebase",
+      "CSS"
+		],
+		"live": "https://van-life-v1.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/van-life"
+	},
+  {
+		"title": "Amazon Clone",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503072/projects/Screenshot_15_qfd1lr.png",
+		"des": "An Amazon Clone",
+		"stack": [
+			"ReactJS",
+      "React Router v6",
+			"React Hooks",
+			"Redux",
+			"Firebase",
+      "CSS"
+		],
+		"live": "https://clone-c6080.web.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/amazon-clone"
+	},
+  {
+		"title": "Note App",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503070/projects/Screenshot_17_bu6au7.png",
+		"des": "A Markdown editor",
+		"stack": [
+			"ReactJS",
+      "react-mde",
+			"react-split",
+      "CSS"
+		],
+		"live": "https://note-app-v01.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/note-app"
+	},
+  {
+		"title": "Tenzies Game",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503070/projects/Screenshot_18_pcwmmq.png",
+		"des": "A Game which is working on the concept to hold same number at all box to win",
+		"stack": [
+			"ReactJS",
+      "react-confetti",
+      "CSS"
+		],
+		"live": "https://tenzies-game-suryakant.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/tenzies-game"
+	},
+  {
+		"title": "Admin Dashboard",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503072/projects/Screenshot_19_y5xa4g.png",
+		"des": "An Admin Dashboard UI",
+		"stack": [
+			"ReactJS",
+      "React Router v6",
+			"MaterialUI",
+			"Styled-Components",
+			"Recharts"
+		],
+		"live": "https://admin-dashboard-beta-eight.vercel.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/admin-dashboard"
+	},
+  {
+		"title": "Food Ordering App",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503072/projects/Screenshot_20_alakzy.png",
+		"des": "A Restaurant Food Ordering App",
+		"stack": [
+			"HTML",
+      "CSS",
+			"JavaScript"
+		],
+		"live": "https://restaurant-ordering-app-suryakant.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/restaurant-ordering-app"
+	},
+  {
+		"title": "Jira Ticket Project",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503073/projects/Screenshot_21_lwldjb.png",
+		"des": "A Jira Ticket clone app that have functionality of CRUD",
+		"stack": [
+			"HTML",
+      "CSS",
+			"JavaScript"
+		],
+		"live": "https://jira-ticket-suryakant.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/JiraTicketClone"
+	},
+  {
+		"title": "Excel Project",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503073/projects/Screenshot_22_sicvv3.png",
+		"des": "An Excel clone app",
+		"stack": [
+			"HTML",
+      "CSS",
+			"JavaScript",
+			"Web Storage API"
+		],
+		"live": "https://excel-project-suryakant.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/ExcelProject"
+	},
+  {
+		"title": "Camera Gallery",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503073/projects/Screenshot_23_muwjo8.png",
+		"des": "A Camera Gallery web app",
+		"stack": [
+			"HTML",
+      "CSS",
+			"JavaScript",
+			"IndexedDB API"
+		],
+		"live": "https://camera-gallery.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/CameraGallery"
+	},
+  {
+		"title": "Do You Know Me Quiz",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503073/projects/Screenshot_25_tpjthd.png",
+		"des": "A CLI app built with nodeJS",
+		"stack": [
+			"JavaScript",
+			"NodeJs",
+			"Chalk"
+		],
+		"live": "https://replit.com/@IM-Suryakant-Ku/DoYouKnowMe?embed=1&output=1",
+		"github": "https://github.com/IM-Suryakant-Kumar/DoYouKnowMe"
+	},
+  {
+		"title": "Are You A Marvel Fan?",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503074/projects/Screenshot_26_krwe8n.png",
+		"des": "Do you know marvel cinematic universe? Let's play a quiz and see.",
+		"stack": [
+			"JavaScript",
+			"NodeJs",
+      "Chalk"
+		],
+		"live": "https://replit.com/@IM-Suryakant-Ku/AreYouAMarvelFan?embed=1&output=1",
+		"github": "https://github.com/IM-Suryakant-Kumar/AreYouAMarvelFan"
+	},
+  {
+		"title": "Were You Born On A Leap Year Checker",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503074/projects/Screenshot_27_pncnt0.png",
+		"des": "It will tell you if your birth year is a leap year or not !!.",
+		"stack": [
+			"JavaScript",
+			"NodeJs",
+      "Chalk"
+		],
+		"live": "https://replit.com/@IM-Suryakant-Ku/WereYouBornOnALeapYear-Checker?embed=1&output=1",
+		"github": "https://github.com/IM-Suryakant-Kumar/WereYouBornOnALeapYear-Checker"
+	},
+  {
+		"title": "Prime Number",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503074/projects/Screenshot_28_zouwap.png",
+		"des": "This is a CLI app to check whether user's birthday is a prime number.",
+		"stack": [
+			"JavaScript",
+			"NodeJs",
+      "Chalk",
+			"Gradient String"
+		],
+		"live": "https://replit.com/@IM-Suryakant-Ku/PrimeNumber?embed=1&output=1",
+		"github": "https://github.com/IM-Suryakant-Kumar/PrimeNumber"
+	},
+  {
+		"title": "Banana Talk",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503074/projects/Screenshot_29_j5hv8r.png",
+		"des": "it will convert English language to minion speak spoken by minion",
+		"stack": [
+			"HTML",
+      "CSS",
+			"JavaScript"
+		],
+		"live": "https://banana-talk-web-app.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/Banana-Talk"
+	},
+  {
+		"title": "Vulcan Translator",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503074/projects/Screenshot_30_mfcqnu.png",
+		"des": "it will convert English language to Vulcan spoken by the Vulcans of the planet Vulcan",
+		"stack": [
+			"HTML",
+      "CSS",
+			"JavaScript"
+		],
+		"live": "https://vulcan-translator-web-app.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/Vulcan-Translator"
+	},
+  {
+		"title": "Emoji Interpreter",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503074/projects/Screenshot_31_obmg00.png",
+		"des": "A Mini EmojiPedia. It will tell the user meaning of the emoji.",
+		"stack": [
+			"HTML",
+      "CSS",
+			"JavaScript"
+		],
+		"live": "https://ygdjvl.csb.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/EmojiInterpreter"
+	},
+  {
+		"title": "MoviePedia",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503074/projects/Screenshot_32_gzjmym.png",
+		"des": "It is a movie recomendation app. It will show specific movies with their names and ratings by clicking on the specific category.",
+		"stack": [
+			"HTML",
+      "CSS",
+			"JavaScript"
+		],
+		"live": "https://27kfrz.csb.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/MoviePedia"
+	},
+  {
+		"title": "Cash Register",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503071/projects/Screenshot_33_fo2eqz.png",
+		"des": "This is a Cash Register manager App. It should tell the cashier/user the amount to be returned in change to the customer with the minimum number of notes.",
+		"stack": [
+			"HTML",
+      "CSS",
+			"JavaScript"
+		],
+		"live": "https://cash-register-suryakant.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/CashRegister"
+	},
+  {
+		"title": "Is Your Birthday Lucky",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503071/projects/Screenshot_34_lbxbpw.png",
+		"des": "This App could checks if your birthday is lucky or not via calculating divission of sum of your date of birth by your lucky number.",
+		"stack": [
+			"HTML",
+      "CSS",
+			"JavaScript"
+		],
+		"live": "https://is-yr-birthday-lucky-suryakant.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/IsYourBirthdayLucky"
+	},
+  {
+		"title": "Fun with Triangle",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503071/projects/Screenshot_35_xxoj1t.png",
+		"des": "Fun with Triangle app has pack of different sections to test your understanding of triangle and also have sections for calculation.",
+		"stack": [
+			"HTML",
+      "CSS",
+			"JavaScript"
+		],
+		"live": "https://fun-with-triangle-suryakant.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/FunWithTriangle"
+	},
+  {
+		"title": "Palindrome Birthday",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503072/projects/Screenshot_42_xvlfj4.png",
+		"des": "It tells if the user's birthday is palindrome or not. If not it will show the nearest palindrome date.",
+		"stack": [
+			"HTML",
+      "CSS",
+			"JavaScript"
+		],
+		"live": "https://palindrome-birthday-suryakant.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/PalindromeBirthday"
+	},
+  {
+		"title": "Profit Loss",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503073/projects/Screenshot_43_df9dzo.png",
+		"des": "This app will calulate profit/loss and also profit/loss percentage.",
+		"stack": [
+			"HTML",
+      "CSS",
+			"JavaScript"
+		],
+		"live": "https://profit-loss-suryakant.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/ProfitLoss"
+	},
+  {
+		"title": "Analog Clock",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503073/projects/Screenshot_44_mu43ze.png",
+		"des": "An analog clock app.",
+		"stack": [
+			"HTML",
+      "CSS",
+			"JavaScript"
+		],
+		"live": "https://a-analog-clock.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/A-Analog-Clock"
 	}
 ]
