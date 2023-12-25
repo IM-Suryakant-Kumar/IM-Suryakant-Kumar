@@ -1,4 +1,4 @@
-@import url("./slide-animation.css");
+@import url("/src/styles/slide-animation.css");
 
 .hero {
   overflow: hidden;
