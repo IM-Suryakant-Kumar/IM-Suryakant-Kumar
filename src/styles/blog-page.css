@@ -49,3 +49,10 @@ main {
 	text-align: center;
 	margin: 1em 0;
 }
+
+@media screen and (min-width: 768px) {
+  main {
+    margin-top: 10em;
+    margin-bottom: 8em;
+  }
+}
