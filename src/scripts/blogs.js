@@ -1,8 +1,7 @@
 import blogsData from "./blogs.json" assert { type: "json" };
+const blogCardsCont = document.querySelector(".blog-cards-cont");
 
-(() => {
-	const blogCardsCont = document.querySelector(".blog-cards-cont");
-
+const blogCardsMaker = blogsData => {
 	let blogCardsContHtml = "";
 
 	let id = 0;
@@ -22,6 +21,14 @@ import blogsData from "./blogs.json" assert { type: "json" };
 	});
 
 	blogCardsCont.innerHTML = blogCardsContHtml;
+};
+
+(() => {
+	if (blogCardsCont.classList[1] === "page") {
+    blogCardsMaker(blogsData)
+	} else {
+    blogCardsMaker(blogsData.slice(0, 6))
+	}
 })();
 
 document.addEventListener("mouseover", e => {
