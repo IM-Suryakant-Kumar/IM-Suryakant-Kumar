@@ -1,7 +1,7 @@
 import projectsData from "./projects.json" assert { type: "json" };
 const cardsCont = document.querySelector(".cards-cont");
 
-const projectsCardsMaker = projectsData => {
+const projectCardsMaker = projectsData => {
 	let cardsContHtml = "";
 
 	projectsData.forEach(p => {
@@ -46,8 +46,8 @@ const projectsCardsMaker = projectsData => {
 
 (() => {
 	if (cardsCont.classList[1] === "page") {
-    projectsCardsMaker(projectsData)
+    projectCardsMaker(projectsData)
 	} else {
-    projectsCardsMaker(projectsData.slice(0, 6))
+    projectCardsMaker(projectsData.slice(0, 6))
   }
 })();
