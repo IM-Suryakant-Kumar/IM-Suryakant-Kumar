@@ -1,7 +1,7 @@
 import projectsData from "./projects.json" assert { type: "json" };
+const cardsCont = document.querySelector(".cards-cont");
 
-(() => {
-	const cardsCont = document.querySelector(".cards-cont");
+const projectsCardsMaker = projectsData => {
 	let cardsContHtml = "";
 
 	projectsData.forEach(p => {
@@ -42,4 +42,12 @@ import projectsData from "./projects.json" assert { type: "json" };
 
 	// parsing html
 	cardsCont.innerHTML = cardsContHtml;
+};
+
+(() => {
+	if (cardsCont.classList[1] === "page") {
+    projectsCardsMaker(projectsData)
+	} else {
+    projectsCardsMaker(projectsData.slice(0, 6))
+  }
 })();
