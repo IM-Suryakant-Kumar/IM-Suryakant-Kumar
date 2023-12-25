@@ -2,20 +2,20 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 /* google font */
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Fira+Sans:wght@300;400;500;600;700;800;900&display=swap");
-/* fontawesome cdn */
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
 /* local css */
 @import url("./styles/navbar.css");
 @import url("./styles/hero.css");
 @import url("./styles/projects.css");
-
+@import url("./styles/skills.css");
+@import url("./styles/blogs.css");
+@import url("./styles/footer.css");
 
 :root {
 	--primary-color: #b5e2fa;
 	--secondary-color: #90e0ef;
 	--logo-color: #9800ff;
 	--orange-color: #fc2f00;
-  --highlight-color: #00bbf9;
+	--highlight-color: #00bbf9;
 	--off-white: #f3f4f6;
 	--dark-gray: #64748b;
 	--link-white: #ffffff;
@@ -29,6 +29,7 @@
 	margin: 0;
 	font-family: "Cinzel", serif;
 	font-family: "Fira Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -36,5 +37,5 @@ a {
 }
 
 ul {
-  list-style: none;
+	list-style: none;
 }

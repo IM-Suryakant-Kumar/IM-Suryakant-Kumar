@@ -77,8 +77,13 @@
     gap: 2em;
   }
   
-  .hero > * {
+  .hero > *:first-child {
     flex: 1;
+  }
+  
+  .hero > *:last-child {
+    flex: 1;
+    max-width: 500px;
   }
 
   .greet > p {

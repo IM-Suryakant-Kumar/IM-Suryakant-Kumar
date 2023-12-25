@@ -1,0 +1,44 @@
+.skills {
+  margin: 1em 0;
+  padding: 1em 0;
+  overflow: hidden;
+}
+
+.skills-cont {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.skill {
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--secondary-color);
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2), -2px -2px 4px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition:  all 0.2s linear;
+  cursor: pointer;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+}
+
+.skill > img {
+  width: 50%;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-cont {
+    gap: 3em;
+  }
+}
