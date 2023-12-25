@@ -1,124 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- SEO=META=TAGS -->
-    <meta name="author" content="Suryakant" />
-    <meta name="keywords" content="javascript, portfolio, project, blog, developer" />
-    <meta name="description" content="I am Suryakant. I like to work as a web developer. I want to showchase my work. this is my portfolio"/>
-    <meta name="”robots”" content="index, follow" />
-    <title>Home | Suryakant</title>
-    <meta name="application-name" content="Suryakant | Home" />
-    <meta name="apple-mobile-web-app-title" content="Suryakant | Home" />
-    <!-- SEO=META=TAGS -->
-    <!-- STYLESHEET -->
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./css/navbar.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-    <!-- STYLESHEET -->
-    <!-- SCRIPT -->
-    <script src="./script.js" defer></script>
-    <script src="./js/navbar.js" defer></script>
-    <!-- SCRIPT -->
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- SEO=META=TAGS -->
+		<meta name="author" content="Suryakant" />
+		<meta
+			name="keywords"
+			content="javascript, portfolio, project, blog, developer" />
+		<meta
+			name="description"
+			content="I am Suryakant. I like to work as a web developer. I want to showchase my work. this is my portfolio" />
+		<meta name="”robots”" content="index, follow" />
+		<title>Home | Suryakant</title>
+		<link
+			rel="shortcut icon"
+			href="https://img.icons8.com/ios-filled/50/9800ff/source-code.png"
+			type="image/x-icon" />
+		<meta name="application-name" content="Suryakant | Home" />
+		<meta name="apple-mobile-web-app-title" content="Suryakant | Home" />
+		<!-- SEO=META=TAGS -->
+		<link rel="stylesheet" href="/src/index.css" />
+		<script src="/src/app.js" type="module" defer></script>
+		<!-- SCRIPT -->
+	</head>
 
-  <body>
-    <!-- Navbar Section -->
+	<body>
+		<!-- Header Section -->
+		<header id="header">
+			<nav>
+				<a href="/"><span>&lt;/&gt;</span> | SuryakanT</a>
+				<div class="menu-bar">
+					<div class="top-bar"></div>
+					<div class="middle-bar"></div>
+					<div class="bottom-bar"></div>
+				</div>
+				<ul class="menu">
+					<li>
+						<a href="/" class="active"
+							><span class="material-icons"> home </span> | Home</a
+						>
+					</li>
+					<li>
+						<a href="/src/pages/projects.html"
+							><span class="material-icons"> code_off </span> | Projects</a
+						>
+					</li>
+					<li>
+						<a href="/src/pages/blogs.html"
+							><span class="material-icons"> rss_feed </span> | Blogs</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-    <nav>
-      <div class="nav-main">
-        <div class="nav-header">
-          <img src="./images/logo.svg" alt="logo" />
-          <div class="menu-bar">
-            <div class="top-bar"></div>
-            <div class="middle-bar"></div>
-            <div class="bottom-bar"></div>
-          </div>
-        </div>
-        <ul class="menu">
-          <li><a class="link-active" href="./">Home</a></li>
-          <li><a href="./pages/projects.html">Projects</a></li>
-          <li><a href="./pages/blogs.html">Blogs</a></li>
-        </ul>
-      </div>
-    </nav>
+		<!-- Main Section -->
+		<main>
+			<!-- hero section -->
+			<section class="hero">
+				<div class="greet slide left">
+					<p>Hi 👋,</p>
+					<p>
+						I am a <span class="profession"></span><span class="pen">✍️</span>
+					</p>
+					<p>
+						I am skilled in <span class="highlight">frontend</span> development
+						and also have knowledge of
+						<span class="highlight">backend</span> development.
+					</p>
+				</div>
+				<div class="banner slide right">
+					<img src="/src/assets/banner.svg" alt="banner" />
+				</div>
+			</section>
 
-    <!-- Header Section -->
+			<!-- Project section -->
+			<section class="projects">
+				<h2 class="title">🧑‍💻 Projects 🙋</h2>
+				<div class="cards-cont"></div>
+			</section>
 
-    <header class="hero">
-      <img class="hero-img" src="./images/hero.svg" alt="" />
-      <h1 class="hero-heading">
-        Suryakant Kumar the <span class="heading-inverted">web developer</span>
-      </h1>
-    </header>
+			<!-- skills and tools section -->
+			<section class="skills">
+				<h2 class="title">💪 Skills And Tools 🙋</h2>
+				<div class="skills-cont slide right">
+					<div class="skill slide left">
+						<img
+							src="https://img.icons8.com/ios/50/9800ff/html-5--v1.png"
+							alt="html-5--v1" />
+					</div>
+					<div class="skill slide left">
+						<img
+							src="https://img.icons8.com/ios/50/9800ff/css3.png"
+							alt="css3" />
+					</div>
+					<div class="skill slide left">
+						<img
+							src="https://img.icons8.com/ios/50/9800ff/javascript-logo.png"
+							alt="javascript-logo" />
+					</div>
+					<div class="skill slide right">
+						<img
+							src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/9800ff/external-react-a-javascript-library-for-building-user-interfaces-logo-bold-tal-revivo.png"
+							alt="external-react-a-javascript-library-for-building-user-interfaces-logo-bold-tal-revivo" />
+					</div>
+					<div class="skill slide right">
+						<img
+							src="https://img.icons8.com/material-outlined/384/9800ff/redux.png"
+							alt="redux" />
+					</div>
+					<div class="skill slide right">
+						<img
+							src="https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/9800ff/external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-light-tal-revivo.png"
+							alt="external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-light-tal-revivo" />
+					</div>
+					<div class="skill slide right">
+						<img
+							src="https://img.icons8.com/material-outlined/384/9800ff/tailwind_css.png"
+							alt="tailwind_css" />
+					</div>
+					<div class="skill slide right">
+						<img
+							src="https://img.icons8.com/ios/500/9800ff/bootstrap.png"
+							alt="bootstrap" />
+					</div>
+					<div class="skill slide right">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="45"
+							viewBox="0 0 24 24">
+							<path
+								d="m16.214 6.762-.075.391c-.116.741-.074.953.244 1.228l.307.254-.318 1.418c-.19.846-.423 1.555-.571 1.788-.127.201-.275.497-.307.656-.053.19-.233.381-.508.55-.243.138-.72.508-1.058.805-.27.243-.456.392-.557.456l-.33.261c-.106.17-.166.307-.189.411-.023.107-.01.178.024.23.033.05.09.085.168.107a.954.954 0 0 0 .282.023 3 3 0 0 0 .632-.112c.07-.019.125-.037.173-.053.074-.091.245-.263.548-.562.804-.793 1.111-1.227.794-1.11-.117.042-.064-.064.137-.276.424-.413.667-1.037 1.175-2.994.402-1.545.402-1.567.698-1.567.139 0 .532.024.532.024v-1.928h-.902zm3.839 3.165c-.064 0-.17.096-.233.202-.116.19.021.306 1.767 1.396 1.037.657 1.873 1.217 1.852 1.26-.021.031-.868.582-1.883 1.217-1.842 1.142-1.852 1.153-1.683 1.386.212.275 0 .37 2.391-1.122l1.736-1.111v-.836l-1.937-1.196c-1.047-.656-1.957-1.185-2.01-1.196zm-16.085.117c-.053 0-.963.54-2.01 1.185l-1.958 1.196v.836l1.947 1.217c1.08.666 1.99 1.217 2.032 1.217s.127-.096.212-.212c.127-.201.02-.286-1.768-1.418-1.703-1.069-1.883-1.217-1.713-1.333.106-.074.91-.572 1.778-1.111 1.979-1.217 1.873-1.133 1.714-1.387-.063-.105-.17-.2-.233-.19zm8.684.023c-.292-.002-.92.443-2.8 1.978-.081.193-.088.326-.051.412.024.059.068.1.129.13.06.03.138.048.224.055.171.015.373-.012.536-.044l.11-.025a.386.386 0 0 1 .144-.118c.116-.064.603-.508 1.09-.984.857-.868 1.058-1.26.709-1.387a.24.24 0 0 0 -.09-.017zm2.196.603c-.257.007-.72.305-1.513.938-.398.323-.65.497-.785.533l-.524.414c-.197.36-.226.583-.174.706a.25.25 0 0 0 .138.134.644.644 0 0 0 .24.045 2.18 2.18 0 0 0 .58-.085 3.466 3.466 0 0 0 .291-.092l.029-.012.053-.028c.1-.129.33-.372.618-.652.91-.878 1.375-1.502 1.28-1.735-.043-.113-.117-.17-.233-.166zm-2.424 1.08c-.074.008-.24.136-.539.398-.432.382-.903.602-1.066.504a3.97 3.97 0 0 1 -.114.024c-.166.033-.373.06-.558.045a.708.708 0 0 1 -.252-.063.337.337 0 0 1 -.168-.17c-.037-.09-.037-.202.005-.345l-.65.534-1.471 1.217v1.973l4.82-3.797a.41.41 0 0 1 .016-.123c.037-.134.035-.202-.023-.196zm2.074.639c-.073 0-.195.103-.39.31-.265.283-.682.557-.903.613l-.034.018a2.191 2.191 0 0 1 -.11.042c-.06.02-.138.044-.228.068-.18.049-.404.094-.604.089a.732.732 0 0 1 -.275-.054.344.344 0 0 1 -.184-.18c-.058-.139-.035-.334.092-.611l-4.252 3.349v1.205h1.868l3.962-3.112c.103-.114.258-.27.467-.465.56-.519.687-.698.687-.963 0-.206-.023-.31-.096-.31zm.943 1.95-.339.338c-.19.18-.529.402-.761.497l-.046.02-.003.005-.01.01c-.009.007-.013.008-.02.011a3.432 3.432 0 0 1 -.282.093 3.058 3.058 0 0 1 -.65.115 1.035 1.035 0 0 1 -.31-.027.364.364 0 0 1 -.218-.144c-.048-.074-.062-.173-.035-.295a1.11 1.11 0 0 1 .095-.25l-3.197 2.526h4.252l.508-.582c.698-.814 1.016-1.396 1.016-1.894z"
+								fill="#9800ff" />
+						</svg>
+					</div>
+					<div class="skill slide right">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="30"
+							height="32"
+							viewBox="0 0 36 32"
+							fill="none"
+							class="css-1170n61">
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M30.343 21.976a1 1 0 00.502-.864l.018-5.787a1 1 0 01.502-.864l3.137-1.802a1 1 0 011.498.867v10.521a1 1 0 01-.502.867l-11.839 6.8a1 1 0 01-.994.001l-9.291-5.314a1 1 0 01-.504-.868v-5.305c0-.006.007-.01.013-.007.005.003.012 0 .012-.007v-.006c0-.004.002-.008.006-.01l7.652-4.396c.007-.004.004-.015-.004-.015a.008.008 0 01-.008-.008l.015-5.201a1 1 0 00-1.5-.87l-5.687 3.277a1 1 0 01-.998 0L6.666 9.7a1 1 0 00-1.499.866v9.4a1 1 0 01-1.496.869l-3.166-1.81a1 1 0 01-.504-.87l.028-16.43A1 1 0 011.527.86l10.845 6.229a1 1 0 00.996 0L24.21.86a1 1 0 011.498.868v16.434a1 1 0 01-.501.867l-5.678 3.27a1 1 0 00.004 1.735l3.132 1.783a1 1 0 00.993-.002l6.685-3.839zM31 7.234a1 1 0 001.514.857l3-1.8A1 1 0 0036 5.434V1.766A1 1 0 0034.486.91l-3 1.8a1 1 0 00-.486.857v3.668z"
+								fill="#9800ff"></path>
+						</svg>
+					</div>
+					<div class="skill slide right">
+						<img
+							src="https://img.icons8.com/windows/512/9800ff/node-js.png"
+							alt="node-js" />
+					</div>
+					<div class="skill slide right">
+						<img
+							src="https://img.icons8.com/ios/500/9800ff/express-js.png"
+							alt="express-js" />
+					</div>
+					<div class="skill slide right">
+						<img
+							src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/9800ff/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png"
+							alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo" />
+					</div>
+					<div class="skill slide right">
+						<img
+							src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/9800ff/external-firebase-a-googles-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-logo-bold-tal-revivo.png"
+							alt="external-firebase-a-googles-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-logo-bold-tal-revivo" />
+					</div>
+				</div>
+			</section>
 
-    <!-- Skills Section -->
+			<!-- blog section -->
+			<section class="blogs">
+				<h2 class="title">👨‍💻 Blogs 🙋</h2>
+				<p class="subtitle">
+					I LOVE TO WRITE AND TEACH OTHERS WHAT I HAVE LEARNT AND EXPERIENCED.
+				</p>
+				<div class="blog-cards-cont"></div>
+			</section>
+		</main>
 
-    <section class="section">
-      <div class="container container-center">
-        <h1>Technologies</h1>
-        <p>
-          I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and
-          Web Hosting
-        </p>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-
-    <section class="section">
-      <div class="container container-center">
-        <h1>Projects</h1>
-        <p>
-          I like to showcase my work and thus, you can see my projects hosted
-          online
-        </p>
-        <a class="link linl-inline-block primary-link" href="./pages/projects.html"
-          >See Projects</a
-        >
-      </div>
-    </section>
-
-    <!-- Blogs Section -->
-
-    <section class="section">
-      <div class="container container-center">
-        <h1>Blogs</h1>
-        <p>
-          I like to showcase my work and thus, you can see my projects hosted
-          online
-        </p>
-        <a class="link linl-inline-block secondary-link" href="./pages/blogs.html"
-          >Read Blogs</a
-        >
-      </div>
-    </section>
-
-    <!-- Footer Section -->
-
-    <footer class="footer">
-      <div class="footer-heading">
-        <img src="./images/logo.svg" alt="logo" />
-      </div>
-      <ul class="list-non-bullet">
-        <li class="list-item-inline">
-          <a class="link" href="https://github.com/IM-Suryakant-Kumar"
-            ><i class="fa-brands fa-github-alt"></i
-          ></a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="https://twitter.com/Suryakant_91"
-            ><i class="fa-brands fa-twitter"></i
-          ></a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="https://www.linkedin.com/in/suryakant-kumar/"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-        </li>
-      </ul>
-    </footer>
-  </body>
+		<!-- footer section -->
+		<footer>
+			<a href="/"><span>&lt;/&gt;</span> | SuryakanT</a>
+			<div class="social-links">
+				<a
+					href="https://github.com/IM-Suryakant-Kumar"
+					target="_blank"
+					class="link slide left">
+					<img src="/src/assets/icons/github.svg" alt="" />
+				</a>
+				<a
+					href="https://twitter.com/Suryakant_91"
+					target="_blank"
+					class="link slide left">
+					<img src="/src/assets/icons/twitter.svg" alt="" />
+				</a>
+				<a
+					href="https://www.linkedin.com/in/suryakant-kumar/"
+					target="_blank"
+					class="link slide left">
+					<img src="/src/assets/icons/linkedin.svg" alt="" />
+				</a>
+				<a
+					href="mailto:sujeetsaxena78@gmail.com"
+					target="_blank"
+					class="link slide right">
+					<img src="/src/assets/icons/email.svg" alt="" />
+				</a>
+				<a disabled class="link slide right">
+					<img src="/src/assets/icons/phone.svg" alt="" />
+				</a>
+				<a href="/src/pages/projects.html" class="link slide right">
+					<img src="/src/assets/icons/code.svg" alt="" />
+				</a>
+				<a href="/src/pages/blogs.html" class="link slide right">
+					<img src="/src/assets/icons/blogs.svg" alt="" />
+				</a>
+			</div>
+			<div class="copyright">
+				<small> &copy; 2023, all rights reserved</small>
+				<small>
+					Designed & Built by
+					<span class="alt-text">&#xae;</span>
+				</small>
+			</div>
+		</footer>
+	</body>
 </html>
