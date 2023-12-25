@@ -48,6 +48,6 @@ const projectCardsMaker = projectsData => {
 	if (cardsCont.classList[1] === "page") {
     projectCardsMaker(projectsData)
 	} else {
-    projectCardsMaker(projectsData.slice(0, 6))
+    projectCardsMaker(projectsData.slice(0, 5))
   }
 })();

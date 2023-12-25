@@ -27,7 +27,7 @@ const blogCardsMaker = blogsData => {
 	if (blogCardsCont.classList[1] === "page") {
     blogCardsMaker(blogsData)
 	} else {
-    blogCardsMaker(blogsData.slice(0, 6))
+    blogCardsMaker(blogsData.slice(0, 5))
 	}
 })();
 
