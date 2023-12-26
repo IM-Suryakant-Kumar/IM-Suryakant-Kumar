@@ -174,6 +174,68 @@
 		"github": "https://github.com/IM-Suryakant-Kumar/restaurant-ordering-app"
 	},
   {
+    "title": "We Are The Champions",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703590715/projects/Screenshot_68_et4xat.png",
+		"des": "A PWA(progressive web app) have fuctionality to create and delete items",
+		"stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Firebase"
+		],
+		"live": "https://we-are-the-champions-suryakant.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/we-are-the-champions"
+	},
+  {
+    "title": "Add To Cart",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703590307/projects/Screenshot_67_tmm2q8.png",
+		"des": "A PWA(progressive web app) have fuctionality to create and delete items",
+		"stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Firebase"
+		],
+		"live": "https://add-to-cart-suryakant.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/add-to-cart"
+	},
+  {
+    "title": "Unit converter",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703589599/projects/Screenshot_66_uegt5p.png",
+		"des": "It calculates your given number to diffrent units",
+		"stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+		],
+		"live": "https://unit-converter-v1.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/unit-converter"
+	},
+  {
+    "title": "Leads tracker",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703589288/projects/Screenshot_65_irdcrw.png",
+		"des": "A chrome browser extension have functionality to save and delete tab/url of the current opened site",
+		"stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+		],
+		"live": "https://github.com/IM-Suryakant-Kumar/leads-tracker",
+		"github": "https://github.com/IM-Suryakant-Kumar/leads-tracker"
+	},
+  {
+    "title": "Password generator",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703588509/projects/Screenshot_64_lty2ua.png",
+		"des": "A password generator app have fuctionality to generate password and when you click on generated password it will be copied to clipboard",
+		"stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+		],
+		"live": "https://password-generotor.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/password-generator"
+	},
+  {
     "title": "Blackjack",
 		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703587775/projects/Screenshot_63_lqpyof.png",
 		"des": "A card game",
