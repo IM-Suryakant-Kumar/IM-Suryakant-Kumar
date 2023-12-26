@@ -174,6 +174,42 @@
 		"github": "https://github.com/IM-Suryakant-Kumar/restaurant-ordering-app"
 	},
   {
+    "title": "Blackjack",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703587775/projects/Screenshot_63_lqpyof.png",
+		"des": "A card game",
+		"stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+		],
+		"live": "https://blackjack-v001.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/blackjack"
+	},
+  {
+    "title": "Basketball Scorecard",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703586802/projects/Screenshot_62_urooln.png",
+		"des": "A app to handle the score of basketball",
+		"stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+		],
+		"live": "https://basketball-scorecard-v1.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/basketball-scorecard"
+	},
+  {
+    "title": "Human Counter",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703584768/projects/Screenshot_61_fowbmu.png",
+		"des": "A counter app to count human of each row",
+		"stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+		],
+		"live": "https://human-counter-app-v1.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/human-counter-app"
+	},
+  {
 		"title": "Jira Ticket Project",
 		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503073/projects/Screenshot_21_lwldjb.png",
 		"des": "A Jira Ticket clone app that have functionality of CRUD",
@@ -379,6 +415,38 @@
 		],
 		"live": "https://a-analog-clock.netlify.app/",
 		"github": "https://github.com/IM-Suryakant-Kumar/A-Analog-Clock"
+	},
+  {
+    "title": "Hometown - Solo Project",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703584063/projects/Screenshot_60_a4ik00.png",
+		"des": "A project to practice UI",
+		"stack": [
+      "HTML",
+      "CSS"
+		],
+		"live": "https://solo-project-hometown.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/solo-project-hometown"
+	},
+  {
+    "title": "Birthday Gift",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703583630/projects/Screenshot_59_cidltb.png",
+		"des": "A project to practice UI",
+		"stack": [
+      "HTML",
+      "CSS"
+		],
+		"live": "https://birthday-gift-v1.netlify.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/birthday-gift"
+	},
+  {
+    "title": "Meme Generator",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703582250/projects/Screenshot_58_zwjmoj.png",
+		"des": "It will give different meme images",
+		"stack": [
+      "ReactJS"
+		],
+		"live": "https://meme-generator-smoky-sigma.vercel.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/meme-generator"
 	},
   {
     "title": "AirBnb Experiences Clone",
