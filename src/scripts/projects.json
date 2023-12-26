@@ -379,5 +379,49 @@
 		],
 		"live": "https://a-analog-clock.netlify.app/",
 		"github": "https://github.com/IM-Suryakant-Kumar/A-Analog-Clock"
+	},
+  {
+    "title": "BootOne",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703576972/projects/Screenshot_46_gz4ytj.png",
+		"des": "A BootStrap UI",
+		"stack": [
+      "HTML",
+			"BootStrap"
+		],
+		"live": "https://im-suryakant-kumar.github.io/Boot-One/",
+		"github": "https://github.com/IM-Suryakant-Kumar/Boot-One"
+	},
+  {
+    "title": "BootTwo",
+    "img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703577391/projects/Screenshot_47_isay6q.png",
+    "des": "A BootStrap UI",
+    "stack": [
+      "HTML",
+      "BootStrap"
+    ],
+    "live": "https://im-suryakant-kumar.github.io/Boot-Web-Two/",
+    "github": "https://github.com/IM-Suryakant-Kumar/Boot-Web-Two?tab=readme-ov-file"
+  },
+  {
+    "title": "Web-U-HCJ",
+    "img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703578074/projects/Screenshot_48_q7jy3q.png",
+    "des": "A blog UI",
+    "stack": [
+      "HTML",
+      "CSS"
+    ],
+    "live": "https://im-suryakant-kumar.github.io/Web-U-HCJ/",
+    "github": "https://github.com/IM-Suryakant-Kumar/Web-U-HCJ"
+  },
+  {
+		"title": "Neumorphic Switch",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703576246/projects/Screenshot_45_wd7eov.png",
+		"des": "A Switch button UI",
+		"stack": [
+			"HTML",
+      "CSS"
+		],
+		"live": "https://im-suryakant-kumar.github.io/Neumorphic-switch/",
+		"github": "https://github.com/IM-Suryakant-Kumar/Neumorphic-switch"
 	}
 ]
