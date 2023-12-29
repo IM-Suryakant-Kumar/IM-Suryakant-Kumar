@@ -83,7 +83,6 @@
   
   .hero > *:last-child {
     flex: 1;
-    max-width: 500px;
   }
 
   .greet > p {
