@@ -18,8 +18,9 @@
 
 ## 🔗Links:
 
-<!-- [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/sujeetsaxena78/)<br> -->
 
+
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/IM-Suryakant-Kumar/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://suryakant-kumar.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suryakant-kumar)
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/Suryakant_91)
@@ -86,7 +87,8 @@
 
 <div align="center">
 
-<!-- ![](https://github-readme-streak-stats.herokuapp.com/?user=IM-Suryakant-Kumar&theme=blue-green&hide_border=false) -->
+
+![](https://github-readme-streak-stats.herokuapp.com/?user=IM-Suryakant-Kumar&theme=blue-green&hide_border=false)
 
 ![Suryakant's GitHub stats](https://github-readme-stats.vercel.app/api?username=IM-Suryakant-Kumar&show_icons=true&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true)
 
