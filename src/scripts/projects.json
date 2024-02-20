@@ -44,7 +44,7 @@
 		"github": "https://github.com/IM-Suryakant-Kumar/ClenchSnap"
 	},
 	{
-		"title": "CLenchMedia",
+		"title": "ClenchMedia",
 		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703420662/projects/Screenshot_11_rcl0zq.png",
 		"des": "A video library App",
 		"stack": [
@@ -63,6 +63,27 @@
 		],
 		"live": "https://clench-media.vercel.app/",
 		"github": "https://github.com/IM-Suryakant-Kumar/ClenchMedia"
+	},
+	{
+		"title": "ClenchKeep",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1708415358/ClenchKeep/qmntcd62l084tbbgd3wn.png",
+		"des": "A note App",
+		"stack": [
+			"TypeScript",
+			"ReactJS",
+			"React Router v6",
+			"Redux Toolkit",
+			"RTK Query",
+			"React Toastify",
+			"CSS Modules",
+			"NodeJS",
+			"ExpressJS",
+			"MongoDB",
+			"JWT",
+			"BcryptJS"
+		],
+		"live": "https://clench-keep.vercel.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/ClenchKeep"
 	},
 	{
 		"title": "YouTube Clone",
