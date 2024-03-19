@@ -86,6 +86,22 @@
 		"github": "https://github.com/IM-Suryakant-Kumar/ClenchKeep"
 	},
 	{
+		"title": "ClenchMTS",
+		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1710849817/projects/ClenchMTS_tki1hk.png",
+		"des": "A Mern Stack starter template",
+		"stack": [
+			"TypeScript",
+			"ReactJS",
+			"React Router v6",
+			"React Toastify",
+      "TailwindCSS",
+			"NodeJS",
+			"ExpressJS"
+		],
+		"live": "https://clenchmts.vercel.app/",
+		"github": "https://github.com/IM-Suryakant-Kumar/ClenchMTS"
+	},
+	{
 		"title": "YouTube Clone",
 		"img": "https://res.cloudinary.com/dyh9ryswk/image/upload/v1703503072/projects/Screenshot_12_sebgfx.png",
 		"des": "A video library App",
