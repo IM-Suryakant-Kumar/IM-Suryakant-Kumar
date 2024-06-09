@@ -26,7 +26,7 @@
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/Suryakant_91)
 
 ---
-
+<!--
 ## 🧑‍💻 Projects
 
 1.  ClenchSnap: A Social media app
@@ -56,6 +56,8 @@
 7.  YouTube Clone: A video library app 
 
     -   [![Static Badge](https://img.shields.io/badge/YouTube_Clone-%233a86ff?logo=vercel&logoColor=black)](https://youtube-clone-rho-two.vercel.app/) [![Static Badge](https://img.shields.io/badge/YouTube_Clone-%233a86ff?logo=github&logoColor=black)](https://github.com/IM-Suryakant-Kumar/youtube-clone)
+  
+   -->
 
 ---
 
