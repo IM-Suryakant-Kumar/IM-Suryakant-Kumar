@@ -1,4 +1,4 @@
-import projectsData from "./projects.json" assert { type: "json" };
+import projectsData from "./projects-data.js";
 const cardsCont = document.querySelector(".cards-cont");
 
 const projectCardsMaker = projectsData => {
