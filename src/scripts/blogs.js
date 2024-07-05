@@ -1,4 +1,4 @@
-import blogsData from "./blogs.json" assert { type: "json" };
+import blogsData from "./blogs-data.js";
 const blogCardsCont = document.querySelector(".blog-cards-cont");
 
 const blogCardsMaker = blogsData => {
