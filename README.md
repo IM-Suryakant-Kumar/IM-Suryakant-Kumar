@@ -4,7 +4,7 @@ I build things with TypeScript, JavaScript, React, Node.
 
 ### ✨ Latest ✨
 - 👨‍💻 Project: [Made component library HTML, CSS, JavaScript](https://github.com/IM-Suryakant-Kumar/ClenchUI) deployed on [netlify](https://clenchui.netlify.app/)
-- 👨‍💻 Project: [Made React, TypeScript, Node, express and tailwindCSS starter template](https://github.com/IM-Suryakant-Kumar/ClenchMTS) deployed on [vercel](https://clench-keep.vercel.app/)
+- 👨‍💻 Project: [Made React, TypeScript, Node, express and tailwindCSS starter template](https://github.com/IM-Suryakant-Kumar/ClenchMTS) deployed on [vercel](https://clenchmts.vercel.app/)
 - 👨‍💻 Project: [Made a note app with React, TypeScript, Node, express and MongoDB](https://github.com/IM-Suryakant-Kumar/ClenchKeep) deployed on [vercel](https://clench-keep.vercel.app/)
 
 ### Highlights
