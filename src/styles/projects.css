@@ -132,7 +132,19 @@
 }
 
 @media screen and (min-width: 768px) {
+  .projects {
+    width: 82%;
+    margin: 2em auto;
+  }
+
 	.title {
 		font-size: 1.8rem;
 	}
+}
+
+@media screen and (min-width: 1024px) {
+	.projects {
+    width: 84%;
+    margin: 2em auto;
+  }
 }

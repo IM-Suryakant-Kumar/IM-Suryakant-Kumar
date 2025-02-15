@@ -11,14 +11,21 @@
 @import url("/src/styles/footer.css");
 
 :root {
+  /* new color start */
+  /* --primary-color: #E4F1FF;
+  --secondary-color: #AED2FF;
+  --text-color: #27005D;
+  --highlight-color: #9400FF; */
+  /* new color end */
 	--primary-color: #b5e2fa;
 	--secondary-color: #90e0ef;
 	--logo-color: #9800ff;
-	--orange-color: #fc2f00;
 	--highlight-color: #00bbf9;
+	--orange-color: #fc2f00;
 	--off-white: #f3f4f6;
 	--dark-gray: #64748b;
 	--link-white: #ffffff;
+  
 }
 
 *,

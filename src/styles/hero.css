@@ -1,19 +1,18 @@
 @import url("/src/styles/slide-animation.css");
 
 .hero {
-  overflow: hidden;
+	overflow: hidden;
 	margin: 0 0.625em;
 	margin-top: 5em;
 	padding: 0.625em 1em;
-	box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2) inset,
-		-1px -1px 4px 1px rgba(0, 0, 0, 0.2) inset;
+	box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2) inset, -1px -1px 4px 1px rgba(0, 0, 0, 0.2) inset;
 	border-radius: 0.625em;
 }
 
-.greet{
-  margin: 2em 0;
+.greet {
+	margin: 2em 0;
 	text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
-  line-height: 2em;
+	line-height: 2em;
 }
 
 .greet > p {
@@ -22,38 +21,38 @@
 }
 
 .greet > p + p {
-  margin-top: 0.3125em;
-  font-size: medium;
+	margin-top: 0.3125em;
+	font-size: medium;
 }
 
 .greet > p > span:first-child {
-  color: var(--orange-color);
-  overflow: hidden;
+	color: var(--orange-color);
+	overflow: hidden;
 }
 
 .greet .pen {
-  animation: blink 1.5s linear infinite;
-  z-index: -1;
+	animation: blink 1.5s linear infinite;
+	z-index: -1;
 }
 
 .greet p:last-child {
-  margin-top: 0.3125em;
-  font-size: 1.3rem;
+	margin-top: 0.3125em;
+	font-size: 1.3rem;
 }
 
 .greet p:last-child span.highlight {
-  color: var(--highlight-color);
+	color: var(--highlight-color);
 }
 
 .banner {
-  margin: 1.5em 0;
-  margin-top: 0.625em;
-  border-radius: 0.625em;
-  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2) inset, -1px -1px 4px 1px rgba(0, 0, 0, 0.2) inset;
+	margin: 1.5em 0;
+	margin-top: 0.625em;
+	border-radius: 0.625em;
+	box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2) inset, -1px -1px 4px 1px rgba(0, 0, 0, 0.2) inset;
 }
 
 .banner > img {
-  width: 100%;
+	width: 100%;
 }
 
 /* animation */
@@ -70,31 +69,55 @@
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media (max-width: 650px) {
+  .banner > img {
+    max-height: 250px;
+  }
+}
+
+@media (min-width: 650px) {
   .hero {
-    display: flex;
-    align-items: center;
-    gap: 2em;
-  }
-  
-  .hero > *:first-child {
-    flex: 1;
-  }
-  
-  .hero > *:last-child {
-    flex: 1;
-  }
+		display: flex;
+		align-items: center;
+		gap: 1em;
+		margin: 0 3em;
+		margin-top: 8em;
+	}
+}
 
-  .greet > p {
-    font-size: xx-large;
-  }
+@media screen and (min-width: 768px) {
+	.hero {
+    width: 84%;
+    margin: 0 auto;
+		gap: 6em;
+		margin-top: 8em;
+	}
 
-  .greet > p + p {
-    font-size: large;
-  }
+	.hero > *:first-child {
+		flex: 1;
+	}
 
-  .greet > p:last-child {
-    font-size: 1.5rem;
-  }
+	.hero > *:last-child {
+		flex: 1;
+	}
 
+	.greet > p {
+		font-size: xx-large;
+	}
+
+	.greet > p + p {
+		font-size: large;
+	}
+
+	.greet > p:last-child {
+		font-size: 1.5rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.hero {
+    width: 82%;
+    margin: 0 auto;
+    margin-top: 8em;
+	}
 }

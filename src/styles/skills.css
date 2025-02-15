@@ -40,6 +40,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .skills {
+    width: 84;
+    margin: 1em auto;
+  }
   .skills-cont {
     gap: 3em;
   }
