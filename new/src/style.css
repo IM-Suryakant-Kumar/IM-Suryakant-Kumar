@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+	--purple-color: #7c00fe;
+	--yellow-color: #f9e400;
+	--dark-yellow: #ffaf00;
+	--red-color: #f5004f;
+	--cinzel-font: "Cinzel", serif;
+	--ptsans-font: "PT Sans", serif;
+	--ptserif-font: "PT Sans", serif;
+}
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* header start */
+header {
+	height: 4rem;
+	background: var(--purple-color);
+	display: flex;
+	align-items: center;
+}
+
+nav {
+	width: 95%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav > a {
+	color: var(--yellow-color);
+	font-family: var(--cinzel-font);
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+/* menubar start */
+.menu-bar {
+	width: 1.8rem;
+	height: 1.8rem;
+	border-radius: 0.2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.2em;
+	position: relative;
+}
+
+.bar {
+	width: 80%;
+	margin: 0 auto;
+	height: 0.15em;
+	background: var(--yellow-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.bar.bottom {
+	width: 40%;
+}
+
+.menu-bar.active > .bar {
+	position: absolute;
+	top: calc(100% / 2);
+}
+
+.menu-bar.active > .top {
+	transform: rotate(45deg);
+}
+
+.menu-bar.active > .middle {
+	opacity: 0;
+}
+
+.menu-bar.active > .bottom {
+  width: 80%;
+	transform: rotate(-45deg);
+}
+/* menubar end */
+
+/* menu-list start */
+.menu-list {
+  /* pos */
+}
+/* menu-list end */
+
+/* header end */
