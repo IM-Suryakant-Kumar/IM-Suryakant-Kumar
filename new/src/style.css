@@ -37,6 +37,7 @@ header {
 	display: flex;
 	align-items: center;
 	position: fixed;
+  top: 0;
 }
 
 nav {
@@ -172,3 +173,9 @@ nav > a {
 	}
 }
 /* header end */
+
+/* main start */
+#home {
+  margin-top: 4em;
+}
+/* main end */
