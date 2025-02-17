@@ -116,15 +116,59 @@ nav > a {
 
 .menu-list a {
 	display: inline-block;
+	width: 100%;
 	color: var(--white-color);
 	text-transform: uppercase;
 	padding: 0.625em;
+}
+
+.menu-list a hr {
+  width: 0;
+  border: none;
+  transition: all 0.5s ease-in-out;
 }
 
 .menu-list a:hover,
 .menu-list a.active {
 	font-weight: bold;
 }
-/* menu-list end */
 
+@media (min-width: 768px) {
+	.menu-bar {
+		display: none;
+	}
+
+	.menu-list {
+		width: max-content;
+		position: static;
+		display: flex;
+		gap: 0.25em;
+	}
+
+	.menu-list a {
+		text-transform: capitalize;
+		padding: 0 0.625em;
+		font-size: 0.9rem;
+		white-space: nowrap;
+	}
+
+	.menu-list a:hover hr,
+	.menu-list a.active hr {
+		/* font-weight: bold; */
+    width: 100%;
+    border: 1px solid;
+	}
+}
+
+@media (min-width: 1024px) {
+	.menu-list a {
+		font-size: 1rem;
+	}
+}
+/* menu-list end */
+@media (min-width: 1024px) {
+	nav {
+		width: 90%;
+	}
+}
 /* header end */
