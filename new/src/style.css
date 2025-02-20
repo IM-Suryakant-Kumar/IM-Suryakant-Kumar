@@ -38,6 +38,7 @@ header {
 	align-items: center;
 	position: fixed;
   top: 0;
+  box-shadow: -2px -2px 4px 2px #00000050;
 }
 
 nav {
@@ -175,7 +176,13 @@ nav > a {
 /* header end */
 
 /* main start */
-#home {
+main {
   margin-top: 4em;
 }
+
+/* home start */
+#home {
+
+}
+/* home end */
 /* main end */

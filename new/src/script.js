@@ -1,26 +1,45 @@
 const menuBar = document.querySelector(".menu-bar");
 const menuList = document.querySelector(".menu-list");
+const mainEle = document.querySelector("main");
 
-// menu-bar start
-menuBar.innerHTML = `
-  <div class="bar top"></div>
-  <div class="bar middle"></div>
-  <div class="bar bottom"></div>
-`;
+function addMenuBar() {
+	menuBar.innerHTML = `
+    <div class="bar top"></div>
+    <div class="bar middle"></div>
+    <div class="bar bottom"></div>
+  `;
+}
 
-menuBar.addEventListener("click", (e) => {
+function toggleMenuBarAndList() {
 	menuBar.classList.toggle("active");
 	menuList.classList.toggle("active");
-});
-// menu-bar end
+}
 
-// menu-list start
-menuList.addEventListener("click", (e) => {
-	menuBar.classList.toggle("active");
-	menuList.classList.toggle("active");
+function handleActiveClass(element) {
+	// remove any active class from previous menu link and add to clicked link
+	document.querySelector("li > a.active").classList.remove("active");
+	element.classList.add("active");
+}
 
-  // remove any active class from previous menu link and add to clicked link
-  document.querySelector("li > a.active").classList.remove("active");
-  e.target.classList.add("active");
-});
-// menu-list end
+function handleMenuListEvent(e) {
+	toggleMenuBarAndList();
+	handleActiveClass(e.target);
+}
+
+function handleScrollEvent() {
+	const sections = document.querySelectorAll("section");
+
+	for (let section of sections) {
+		const sectionTop = section.offsetTop;
+		const sectionHeight = section.offsetHeight;
+
+		if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+			handleActiveClass(document.querySelector(`li a[href="#${section.id}"]`));
+		}
+	}
+}
+
+addMenuBar();
+menuBar.addEventListener("click", toggleMenuBarAndList);
+menuList.addEventListener("click", handleMenuListEvent);
+window.addEventListener("scroll", handleScrollEvent);
