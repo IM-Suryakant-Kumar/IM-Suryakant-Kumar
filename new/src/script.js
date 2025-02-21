@@ -2,13 +2,13 @@ const menuBar = document.querySelector(".menu-bar");
 const menuList = document.querySelector(".menu-list");
 const mainEle = document.querySelector("main");
 
-function addMenuBar() {
+(function addMenuBar() {
 	menuBar.innerHTML = `
     <div class="bar top"></div>
     <div class="bar middle"></div>
     <div class="bar bottom"></div>
   `;
-}
+})();
 
 function toggleMenuBarAndList() {
 	menuBar.classList.toggle("active");
@@ -23,7 +23,7 @@ function handleActiveClass(element) {
 
 function handleMenuListEvent(e) {
 	toggleMenuBarAndList();
-	handleActiveClass(e.target);
+	// handleActiveClass(e.target);
 }
 
 function handleScrollEvent() {
@@ -33,13 +33,19 @@ function handleScrollEvent() {
 		const sectionTop = section.offsetTop;
 		const sectionHeight = section.offsetHeight;
 
-		if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+		if (scrollY >= sectionTop - 10 && scrollY < sectionTop + sectionHeight) {
 			handleActiveClass(document.querySelector(`li a[href="#${section.id}"]`));
 		}
 	}
 }
 
-addMenuBar();
+var typing = new Typed(".profession", {
+	strings: ["", "Web Developer", "Frontend Developer", "Backend Developer", "MERN Stack Developer"],
+	typeSpeed: 100,
+	backSpeed: 40,
+	loop: true,
+});
+
 menuBar.addEventListener("click", toggleMenuBarAndList);
 menuList.addEventListener("click", handleMenuListEvent);
 window.addEventListener("scroll", handleScrollEvent);
