@@ -208,6 +208,7 @@ section .wrapper {
 	color: var(--white-color);
 }
 
+
 .home .top a:last-child {
 	background: var(--white-color);
 	color: var(--purple-color);
