@@ -1,46 +1,36 @@
 import type { Metadata } from "next";
-import { Cinzel, Exo_2 } from "next/font/google";
+import { Cinzel, Josefin_Sans } from "next/font/google";
 import "./globals.css";
-import ThemeContextProvider from "@/contexts/theme-context";
-import ThemeSwitch from "@/components/ThemeSwitch";
+import ThemeContextProvider from "@/contexts/ThemeContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const cinzel = Cinzel({
-	variable: "--font-cinzel",
+const josefin = Josefin_Sans({
+	variable: "--font-primary",
 	subsets: ["latin"],
 });
 
-const exo = Exo_2({
+const cinzel = Cinzel({
+	variable: "--font-secondary",
 	subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-	title: "Home | Suryakant Kumar",
+	title: "Home | Suryakant",
 	keywords: [
-		"Suryakant Kumar",
-		"Web Developer",
-		"Portfolio",
-		"Blog",
-		"Projects",
+		"personal website",
+		"projects",
+		"blogs",
+		"skills",
+		"experiences",
+		"Suryakant",
 		"Next.js",
-		"React",
-		"JavaScript",
 		"TypeScript",
-		"Node.js",
-		"Express.js",
-		"MongoDB",
-		"Prisma",
-		"Redux",
-		"Redux-Toolkit",
-		"TailwindCSS",
-		"Web Development",
-		"Frontend Developer",
-		"Backend Developer",
-		"Full Stack Developer",
+		"web development",
+		"portfolio",
 	],
 	description:
-		"Welcome to the personal website of Suryakant Kumar, a passionate web developer. Explore my portfolio, blog posts, and projects focused on modern web technologies and development insights.",
+		"This is my personal website. It is built with Next.js and TypeScript. It showcases my projects, blogs skills, and experiences. Feel free to explore!",
 };
 
 export default function RootLayout({
@@ -51,13 +41,12 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${cinzel.variable} ${exo.className} antialiased bg-gray-100 dark:bg-gray-900`}
+				className={`${josefin.variable} ${cinzel.variable} font-primary antialiased bg-primary text-gray-600 dark:bg-secondary dark:text-primary mt-15 `}
 			>
 				<ThemeContextProvider>
 					<Header />
 					{children}
-					<Footer />
-					<ThemeSwitch />
+          <Footer />
 				</ThemeContextProvider>
 			</body>
 		</html>

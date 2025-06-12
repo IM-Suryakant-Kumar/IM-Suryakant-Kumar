@@ -2,42 +2,16 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-@layer base {
-	*,
-	*::before,
-	*::after {
-		@apply  text-gray-800 dark:text-gray-200;
-	}
-
-  h1 {
-    @apply text-xl font-bold mb-4;
-  }
-
-  h2 {
-    @apply text-lg font-semibold mb-3;
-  }
-
-	p {
-		@apply text-sm leading-relaxed;
-	}
-
-	 a {
-		@apply text-blue-600 hover:text-blue-800;
-	}
-
-	button {
-		@apply bg-blue-600 text-white hover:bg-blue-700;
-	}
+@theme {
+  --color-primary: #ebf2fa;
+  --color-secondary: #cae9ff;
+  --color-logo: #3a86ff;
+  --font-primary: var(--font-primary);
+  --font-secondary: var(--font-secondary);
 }
 
-@layer utilities {
-	.no-scrollbar {
-		overflow: hidden;
-		scrollbar-width: none; /* Firefox */
-		-ms-overflow-style: none; /* IE and Edge */
-	}
-
-	.no-scrollbar::-webkit-scrollbar {
-		display: none; /* Chrome, Safari, Opera */
-	}
+@layer base {
+  *, *::after, *::before { 
+    scroll-behavior: smooth;
+  }
 }
