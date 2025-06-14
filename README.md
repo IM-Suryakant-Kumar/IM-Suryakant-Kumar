@@ -1,6 +1,7 @@
 <div align="center">
 <h1>Hi 👋, I'm Suryakant</h1>
-<h3>Passionate learning developer from India</h3>
+
+I am a Full Stack Web developer based in India. I am a passionate developer with a knack for creating stunning web applications. I have been making websites since 2022, and I love exploring new technologies and frameworks. My journey in web development has been fueled by curiosity and a desire to learn.
 
 [![](https://komarev.com/ghpvc/?username=IM-Suryakant-Kumar)](https://github.com/IM-Suryakant-Kumar)
 
