@@ -86,7 +86,7 @@ ksuryakant43@gmail.com")**
 
 <div align="center">
 
-<!-- ![](https://github-readme-streak-stats.herokuapp.com/?user=IM-Suryakant-Kumar&theme=blue-green&hide_border=false) -->
+![](https://github-readme-streak-stats.herokuapp.com/?user=IM-Suryakant-Kumar&theme=blue-green&hide_border=false)
 
 ![Suryakant's GitHub stats](https://github-readme-stats.vercel.app/api?username=IM-Suryakant-Kumar&show_icons=true&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true)
 
