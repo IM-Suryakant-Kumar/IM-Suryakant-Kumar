@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+	--color-primary: #ffffff;
+	--color-secondary: #000000;
+	--font-josefin: "Josefin Sans", sans-serif;
+	--font-cinzel: "Cinzel", serif;
+}
+
+@layer base {
+  html.dark {
+    --color-primary: #000000;
+    --color-secondary: #ffffff;
+  }
+
+	*,
+	*::before,
+	*::after {
+		@apply font-josefin scroll-smooth;
+	}
+
+  body {
+		@apply bg-primary text-secondary;
+	}
+
+
+	input,
+	button {
+		@apply outline-none;
+	}
+
+	article {
+		@apply min-h-screen scroll-mt-15 border-t border-b border-gray-200 p-4;
+	}
+}
+
+@layer utilities {
+	.scrollbar-hidden::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+@layer components {
+	.title {
+		@apply text-2xl md:text-3xl font-semibold text-center mb-6;
+	}
+}

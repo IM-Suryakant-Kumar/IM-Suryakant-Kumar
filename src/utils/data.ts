@@ -1,29 +1,29 @@
 export const links = [
 	{
 		name: "Home",
-		hash: "#home",
+		href: "#home",
 	},
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
-    name: "About",
-    hash: "#about",
-  },
+	{
+		name: "About",
+		href: "#about",
+	},
+	{
+		name: "Skills",
+		href: "#skills",
+	},
 	{
 		name: "Projects",
-		hash: "#projects",
+		href: "#projects",
 	},
 	{
 		name: "Blogs",
-		hash: "#blogs",
+		href: "#blogs",
 	},
 	{
 		name: "Contact",
-		hash: "#contact",
+		href: "#contact",
 	},
-] as const;
+];
 
 export const skills = [
 	"HTML",
@@ -31,34 +31,22 @@ export const skills = [
 	"JavaScript",
 	"TypeScript",
 	"React",
-	"Redux",
+	"React Router",
+	"Context API",
+	"Redux Toolkit",
 	"Node.js",
 	"Express.js",
 	"MongoDB",
-	"Next.js",
-	"Prisma",
+	"Git",
 	"Tailwind CSS",
+	"Bootstrap",
 	"Material UI",
 	"Styled Components",
-	"Git",
-] as const;
+	"JWT",
+	"REST APIs",
+];
 
 export const projects = [
-  {
-    title: "portfolio",
-    img: "/projects/portfolio.png",
-    des: "My personal portfolio website built with Next.js and TypeScript. It showcases my projects, blogs, skills, and experiences.",
-    stack: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "React Icons",
-      "Context API",
-      
-    ],
-    live: "https://suryakant-kumar.vercel.app/",
-    github: "https://github.com/IM-Suryakant-Kumar/suryakantkumar.com",
-  },
 	{
 		title: "ClenchSnap",
 		img: "/projects/snap.png",
@@ -66,10 +54,8 @@ export const projects = [
 		stack: [
 			"ReactJS",
 			"TypeScript",
-			"React Router v6",
-			"Context API with useReducer",
-			"React Router data APIs",
-			"React Toastify",
+			"React Router",
+			"Context API",
 			"TailwindCSS",
 			"NodeJS",
 			"ExpressJS",
@@ -88,9 +74,7 @@ export const projects = [
 		stack: [
 			"ReactJS",
 			"Redux Toolkit",
-			"React Router v6",
-			"React Router data APIs",
-			"React Toastify",
+			"React Router",
 			"MaterialUI",
 			"Styled-Components",
 			"NodeJS",
@@ -110,9 +94,7 @@ export const projects = [
 		stack: [
 			"ReactJS",
 			"TypeScript",
-			"React Router v6",
-			"React Router data APIs",
-			"React Toastify",
+			"React Router",
 			"Styled-Components",
 			"NodeJS",
 			"ExpressJS",
@@ -131,10 +113,9 @@ export const projects = [
 		stack: [
 			"TypeScript",
 			"ReactJS",
-			"React Router v6",
+			"React Router",
 			"Redux Toolkit",
 			"RTK Query",
-			"React Toastify",
 			"CSS Modules",
 			"NodeJS",
 			"ExpressJS",
@@ -160,8 +141,7 @@ export const projects = [
 		stack: [
 			"TypeScript",
 			"ReactJS",
-			"React Router v6",
-			"React Toastify",
+			"React Router",
 			"TailwindCSS",
 			"NodeJS",
 			"ExpressJS",
@@ -169,22 +149,22 @@ export const projects = [
 		live: "https://clenchmts.vercel.app/",
 		github: "https://github.com/IM-Suryakant-Kumar/ClenchMTS",
 	},
-] as const;
+];
 
 export const blogs = [
 	{
 		title: "WebScrapping Guide",
-		desc: "coming soon...",
+		des: "coming soon...",
 		link: "coming soon!",
 	},
 	{
 		title: "Promises to Async Await",
-		desc: "coming soon...",
+		des: "coming soon...",
 		link: "coming soon!",
 	},
 	{
 		title: "Automation Guide",
-		desc: "coming soon...",
+		des: "coming soon...",
 		link: "coming soon!",
 	},
-] as const;
+];
