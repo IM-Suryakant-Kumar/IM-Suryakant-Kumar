@@ -32,14 +32,14 @@ const Projects = () => {
 						</div>
 						<div className="w-full flex justify-between mt-4">
 							<a
-								className="inline-block bg-gray-600 hover:bg-gray-700 text-primary border-2 border-gray-400 font-bold px-4 py-1 text-sm rounded-xs ease-in-out duration-300"
+								className="inline-block bg-orange-600 hover:bg-orange-700 text-primary border-2 border-orange-400 font-bold px-4 py-1 text-sm rounded-xs ease-in-out duration-300"
 								href={project.live}
 								target="_blank"
 							>
 								Live
 							</a>
 							<a
-								className="inline-block text-gray-600 hover:text-gray-700 font-bold border-2 border-gray-400 hover:border-gray-600 px-4 py-1 text-sm rounded-xs ease-in-out duration-300"
+								className="inline-block text-orange-600 hover:text-orange-700 font-bold border-2 border-orange-400 hover:border-orange-600 px-4 py-1 text-sm rounded-xs ease-in-out duration-300"
 								href={project.github}
 								target="_blank"
 							>
