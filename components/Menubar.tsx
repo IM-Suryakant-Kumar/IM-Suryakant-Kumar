@@ -1,5 +1,7 @@
+"use client";
+
 import { useState } from "react";
-import { links } from "../utils";
+import { links } from "../lib";
 
 const Menubar = () => {
 	const [showMenu, setShowMenu] = useState(false);
@@ -38,7 +40,7 @@ const Menubar = () => {
 						<a
 							className="block bg-primary hover:bg-secondary text-secondary hover:text-primary border border-gray-200 mt-1 px-2 py-0.5 leading-relaxed rounded-sm ease-in-out duration-300"
 							href={href}
-              onClick={() => setShowMenu(false)}
+							onClick={() => setShowMenu(false)}
 						>
 							{name}
 						</a>

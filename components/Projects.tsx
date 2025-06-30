@@ -1,4 +1,6 @@
-import { projects } from "../utils";
+import { projects } from "@/lib";
+import Image from "next/image";
+
 
 const Projects = () => {
 	return (
@@ -13,12 +15,16 @@ const Projects = () => {
 						key={project.title}
 						className="border-2 border-gray-300 rounded-md overflow-hidden flex flex-col items-start gap-2 p-4"
 					>
-						<img
+						<Image
 							className="w-full object-cover"
 							src={project.img}
 							alt={project.title}
+              width="100"
+              height="100"
 						/>
-						<h2 className="text-xl font-cinzel font-semibold">{project.title}</h2>
+						<h2 className="text-xl font-cinzel font-semibold">
+							{project.title}
+						</h2>
 						<p className="text-md text-gray-600">{project.des}</p>
 						<div className="text-gray-600 text-xs">
 							{project.stack.map((s) => (

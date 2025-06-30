@@ -1,4 +1,4 @@
-import { links } from "../utils";
+import { links } from "@/lib";
 import Menubar from "./Menubar";
 
 const Header = () => {
