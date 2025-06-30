@@ -10,7 +10,7 @@ const Hero = () => {
 			className="mt-15 bg-gradient-to-r from-white to-yellow-100 text-center flex flex-col justify-center items-center gap-6"
 		>
 			<h1 className="text-orange-400 text-3xl md:text-4xl font-cinzel font-semibold text-shadow-md leading-relaxed">
-				Hi 👋. I'm Suryakant Kumar
+				Hi 👋. I&apos;m Suryakant Kumar
 			</h1>
 			<h2 className="text-orange-500 text-xl md:text-2xl font-cinzel font-semibold text-shadow-md">
 				A Frontend Web Developer
